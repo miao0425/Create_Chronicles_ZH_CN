@@ -1,0 +1,3273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basics"
+	group: ""
+	icon: "minecraft:diamond"
+	id: "09B56D111668F538"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "kubejs:textures/logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -27.0d
+			y: 18.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests0.description0}"
+				""
+				"{ftbquests.chapter.basics.quests0.description2}"
+				""
+				"{ftbquests.chapter.basics.quests0.description4}"
+				""
+				"{ftbquests.chapter.basics.quests0.description6}"
+				""
+				"{ftbquests.chapter.basics.quests0.description8}"
+			]
+			icon: "kubejs:skill_add_point"
+			id: "072DA448D144179C"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2F72B652621B93C9"
+					silent: true
+					title: "{ftbquests.chapter.basics.quests0.rewards0.title}"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "13FDAAB9648E3D0D"
+					title: "{ftbquests.chapter.basics.quests0.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests0.title}"
+			x: -22.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: ["{ftbquests.chapter.basics.quests1.description}"]
+			id: "185BE49AE8B53CBD"
+			rewards: [
+				{
+					id: "1F4E5A434D150857"
+					item: "ironchest:wood_to_iron_chest_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4EFDAB97918B546C"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests1.title}"
+			x: -4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: [
+				"{ftbquests.chapter.basics.quests2.description0}"
+				""
+				"{ftbquests.chapter.basics.quests2.description2}"
+				""
+				"{ftbquests.chapter.basics.quests2.description4}"
+				""
+				"{ftbquests.chapter.basics.quests2.description6}"
+				""
+				"{ftbquests.chapter.basics.quests2.description8}"
+				""
+				"{ftbquests.chapter.basics.quests2.description10}"
+				""
+				"{ftbquests.chapter.basics.quests2.description12}"
+				""
+				"{ftbquests.chapter.basics.quests2.description14}"
+			]
+			id: "7261FED43BDDEFA8"
+			rewards: [
+				{
+					id: "6936CD16F9688A12"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "28DECE967CE74AD2"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests2.title}"
+			x: -16.5d
+			y: 20.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.basics.quests3.description0}"
+				""
+				"{ftbquests.chapter.basics.quests3.description2}"
+				""
+				"{ftbquests.chapter.basics.quests3.description4}"
+				""
+				"{ftbquests.chapter.basics.quests3.description6}"
+				""
+				"{ftbquests.chapter.basics.quests3.description8}"
+				""
+				"{ftbquests.chapter.basics.quests3.description10}"
+				""
+				"{ftbquests.chapter.basics.quests3.description12}"
+				""
+				"{ftbquests.chapter.basics.quests3.description14}"
+			]
+			id: "1F6BC8C2A5B8F9B2"
+			rewards: [
+				{
+					count: 20
+					id: "167DE99A77DBDD03"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					id: "6F4B491F8FFFB7FF"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.basics.quests3.subtitle}"
+			tasks: [
+				{
+					id: "184D02801FC28C38"
+					title: "{ftbquests.chapter.basics.quests3.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests3.title}"
+			x: -20.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests4.description0}"
+				"{ftbquests.chapter.basics.quests4.description1}"
+				"{ftbquests.chapter.basics.quests4.description2}"
+			]
+			id: "0C49795E134A27E0"
+			rewards: [
+				{
+					id: "6C864251A2E6384F"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "37AB800E7789E9C7"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DD5BBE838C429A3"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests4.title}"
+			x: -16.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["72A5DEFDD0F3470D"]
+			description: [
+				"{ftbquests.chapter.basics.quests5.description0}"
+				""
+				"{ftbquests.chapter.basics.quests5.description2}"
+			]
+			id: "6EDC6D809402C84C"
+			rewards: [
+				{
+					id: "3BE68D65CCD63759"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "096AF6AAAD52211A"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests5.title}"
+			x: 6.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests6.description0}"
+				""
+				"{ftbquests.chapter.basics.quests6.description2}"
+			]
+			id: "0C7046AD65831DAC"
+			rewards: [
+				{
+					id: "6941E9B443360ADA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "4CDC98F4B0439B5A"
+					item: {
+						Count: 1b
+						id: "create_sa:andesite_jetpack_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests6.title}"
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests7.description0}"
+				""
+				"{ftbquests.chapter.basics.quests7.description2}"
+				""
+				"{ftbquests.chapter.basics.quests7.description4}"
+			]
+			icon: "lootr:trophy"
+			id: "7FA9BBBA1DBB5F32"
+			tasks: [
+				{
+					id: "1A913BDE3452E930"
+					title: "{ftbquests.chapter.basics.quests7.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests7.title}"
+			x: -22.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests8.description0}"
+				""
+				"{ftbquests.chapter.basics.quests8.description2}"
+				""
+				"{ftbquests.chapter.basics.quests8.description4}"
+				""
+				"{ftbquests.chapter.basics.quests8.description6}"
+				""
+				"{ftbquests.chapter.basics.quests8.description8}"
+				""
+				"{ftbquests.chapter.basics.quests8.description10}"
+				""
+				"{ftbquests.chapter.basics.quests8.description12}"
+			]
+			icon: "waystones:waystone"
+			id: "67FA8896AD563A77"
+			rewards: [
+				{
+					id: "7B0DEB5DF9F95C18"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests8.subtitle}"
+			tasks: [
+				{
+					id: "6F08B962A9B440A2"
+					title: "{ftbquests.chapter.basics.quests8.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests8.title}"
+			x: -20.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: [
+				"{ftbquests.chapter.basics.quests9.description0}"
+				""
+				"{ftbquests.chapter.basics.quests9.description2}"
+				""
+				"{ftbquests.chapter.basics.quests9.description4}"
+				""
+				"{ftbquests.chapter.basics.quests9.description6}"
+				""
+				"{ftbquests.chapter.basics.quests9.description8}"
+				""
+				"{ftbquests.chapter.basics.quests9.description10}"
+				""
+				"{ftbquests.chapter.basics.quests9.description12}"
+				""
+				"{ftbquests.chapter.basics.quests9.description14}"
+			]
+			icon: {
+				Count: 1b
+				id: "simplyswords:brimstone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F1F1047E8A734EC"
+			rewards: [
+				{
+					id: "721FF67AC2FD6B87"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests9.subtitle}"
+			tasks: [
+				{
+					id: "2641C625B57F3705"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "simplyswords:runic_grimoire"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"{ftbquests.chapter.basics.quests10.description0}"
+				""
+				"{ftbquests.chapter.basics.quests10.description2}"
+				""
+				"{ftbquests.chapter.basics.quests10.description4}"
+			]
+			icon: "alexsmobs:animal_dictionary"
+			id: "018D3C4DBED54803"
+			rewards: [
+				{
+					id: "3DAC8A3BB2FB7AFB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests10.subtitle}"
+			tasks: [
+				{
+					id: "15EDF99888160CC9"
+					item: "alexsmobs:animal_dictionary"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests10.title}"
+			x: -12.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: ["{ftbquests.chapter.basics.quests11.description}"]
+			id: "479BCCC330D6725A"
+			rewards: [
+				{
+					id: "25AEE5EABCB3C6DD"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests11.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "3F8765763646ECDD"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests11.title}"
+			x: 10.0d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7B4DB4B0D17BE6C4"
+				"6BC9E9B971DEE60A"
+			]
+			description: [
+				"{ftbquests.chapter.basics.quests12.description0}"
+				""
+				"{image:kubejs:textures/bare_portal_frame.png width:200 height:120 align:1}"
+			]
+			id: "70068CFDA790A856"
+			rewards: [
+				{
+					id: "5A6D5150CFD16EA9"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "56B9713B96937881"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests12.subtitle}"
+			tasks: [
+				{
+					id: "5051B0937885FF15"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["{ftbquests.chapter.basics.quests13.description}"]
+			id: "7B4DB4B0D17BE6C4"
+			rewards: [
+				{
+					id: "07DDC96B14693645"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests13.subtitle}"
+			tasks: [
+				{
+					id: "67D7AB20A178B8A4"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["70068CFDA790A856"]
+			description: [
+				"{ftbquests.chapter.basics.quests14.description0}"
+				""
+				"{image:kubejs:textures/advanced_portal_build.png width:200 height:120 align:1}"
+			]
+			id: "6A465B0AE8586176"
+			rewards: [
+				{
+					id: "09562381EF6CF006"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "7FBB4AF74D31C240"
+					type: "xp"
+					xp: 70
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests14.subtitle}"
+			tasks: [
+				{
+					count: 2L
+					id: "44D4014014A0C6D4"
+					item: "dimdungeons:block_portal_crown"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests14.title}"
+			x: 10.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["479BCCC330D6725A"]
+			description: ["{ftbquests.chapter.basics.quests15.description}"]
+			id: "6BC9E9B971DEE60A"
+			rewards: [
+				{
+					id: "56139D410D078D3C"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "1CBDEF934517F060"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests15.subtitle}"
+			tasks: [
+				{
+					id: "6254D4627A80A005"
+					item: "dimdungeons:block_key_charger"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7B4DB4B0D17BE6C4"]
+			description: ["{ftbquests.chapter.basics.quests16.description}"]
+			id: "03C4EA06B12B1656"
+			rewards: [
+				{
+					id: "1AD3FDA3EF5444A4"
+					type: "xp"
+					xp: 35
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests16.subtitle}"
+			tasks: [
+				{
+					id: "7B8C4A7F6C6AF405"
+					item: "dimdungeons:item_blank_build_key"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: [
+				"{ftbquests.chapter.basics.quests17.description0}"
+				""
+				"{ftbquests.chapter.basics.quests17.description2}"
+				""
+				"{ftbquests.chapter.basics.quests17.description4}"
+				""
+				"{ftbquests.chapter.basics.quests17.description6}"
+				""
+				"{ftbquests.chapter.basics.quests17.description8}"
+				""
+				"{ftbquests.chapter.basics.quests17.description10}"
+				""
+				"{ftbquests.chapter.basics.quests17.description12}"
+				""
+				"{ftbquests.chapter.basics.quests17.description14}"
+				""
+				"{ftbquests.chapter.basics.quests17.description16}"
+				""
+				"{ftbquests.chapter.basics.quests17.description18}"
+				""
+				"{ftbquests.chapter.basics.quests17.description20}"
+				""
+				"{ftbquests.chapter.basics.quests17.description22}"
+				""
+				"{ftbquests.chapter.basics.quests17.description24}"
+			]
+			id: "3CE1B3AB173035B9"
+			rewards: [
+				{
+					count: 8
+					id: "432F55EB62251142"
+					item: "minecraft:map"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests17.subtitle}"
+			tasks: [
+				{
+					id: "70CECC316554D7D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								maps: ["I;"]
+							}
+						}
+						id: "map_atlases:atlas"
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests17.title}"
+			x: -16.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: ["{ftbquests.chapter.basics.quests18.description}"]
+			id: "107C7C1F5CADD79E"
+			rewards: [
+				{
+					id: "1AC7296C76CD5F9F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests18.subtitle}"
+			tasks: [
+				{
+					id: "44B7D229A5F0DA91"
+					item: "paraglider:paraglider"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests18.title}"
+			x: -13.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5F54BFA919A9265B"]
+			id: "00CCA9A34E314582"
+			rewards: [
+				{
+					count: 3
+					id: "5F3E6E7FBB2DCDD1"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1584A86F782C8BE3"
+					item: "iceandfire:lectern"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0A6D8A117DACC36B"]
+			description: ["{ftbquests.chapter.basics.quests20.description}"]
+			id: "5F54BFA919A9265B"
+			rewards: [
+				{
+					count: 3
+					id: "3ECA39C956698FC6"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests20.subtitle}"
+			tasks: [
+				{
+					id: "32B50B49CA6E5D3F"
+					item: "iceandfire:bestiary"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: ["{ftbquests.chapter.basics.quests21.description}"]
+			id: "0A6D8A117DACC36B"
+			rewards: [
+				{
+					count: 3
+					id: "5B9B991735FED2BB"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests21.subtitle}"
+			tasks: [
+				{
+					consume_items: false
+					id: "46ABA342D99C4D1E"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests21.title}"
+			x: -7.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["{ftbquests.chapter.basics.quests22.description}"]
+			id: "05DF598DEBADABC3"
+			rewards: [
+				{
+					count: 3
+					id: "4DB3D90257676F99"
+					item: "iceandfire:manuscript"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests22.subtitle}"
+			tasks: [
+				{
+					id: "10C9EC641579B9FA"
+					title: "{ftbquests.chapter.basics.quests22.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests22.title}"
+			x: -7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"{ftbquests.chapter.basics.quests23.description0}"
+				""
+				"{ftbquests.chapter.basics.quests23.description2}"
+				""
+				"{ftbquests.chapter.basics.quests23.description4}"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "irons_spellbooks:iss_guide_book"
+				}
+			}
+			id: "4B378FB1C1B2C9B6"
+			rewards: [
+				{
+					id: "0DE40E0CC958DE8B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "{ftbquests.chapter.basics.quests23.subtitle}"
+			tasks: [
+				{
+					id: "2393F7F99A9D5A39"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "irons_spellbooks:iss_guide_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests23.title}"
+			x: 2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["203A551C239270CC"]
+			description: [
+				"{ftbquests.chapter.basics.quests24.description0}"
+				""
+				"{ftbquests.chapter.basics.quests24.description2}"
+				""
+				"{ftbquests.chapter.basics.quests24.description4}"
+				""
+				"{ftbquests.chapter.basics.quests24.description6}"
+				""
+				"{ftbquests.chapter.basics.quests24.description8}"
+				""
+				"{ftbquests.chapter.basics.quests24.description10}"
+			]
+			id: "5B77391C5522B8FD"
+			rewards: [
+				{
+					id: "10628D069DE82A16"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests24.subtitle}"
+			tasks: [
+				{
+					id: "4760248725EA6AFE"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4B378FB1C1B2C9B6"]
+			description: [
+				"{ftbquests.chapter.basics.quests25.description0}"
+				""
+				"{ftbquests.chapter.basics.quests25.description2}"
+				""
+				"{ftbquests.chapter.basics.quests25.description4}"
+			]
+			id: "203A551C239270CC"
+			rewards: [
+				{
+					id: "3C19DC8A4E206C87"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests25.subtitle}"
+			tasks: [
+				{
+					id: "57756789D0E642A1"
+					item: {
+						Count: 1b
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_spellbook: {
+								activeSpellIndex: -1
+								spellSlots: 4
+								spells: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"7F100A2BD0FCDF83"
+				"36F0F4CB2DB0DC6F"
+				"5B77391C5522B8FD"
+			]
+			description: ["{ftbquests.chapter.basics.quests26.description}"]
+			id: "25F182EEFE41CFAB"
+			rewards: [
+				{
+					id: "391A333A7E3687F0"
+					item: "irons_spellbooks:shriving_stone"
+					type: "item"
+				}
+				{
+					id: "318A3F601957723A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests26.subtitle}"
+			tasks: [
+				{
+					id: "489E87CAFFF7045B"
+					item: "irons_spellbooks:arcane_anvil"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["203A551C239270CC"]
+			description: ["{ftbquests.chapter.basics.quests27.description}"]
+			id: "7F100A2BD0FCDF83"
+			rewards: [
+				{
+					id: "1E00ABF3337012D9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "5D93C698ECD2F59D"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4B378FB1C1B2C9B6"]
+			description: ["{ftbquests.chapter.basics.quests28.description}"]
+			id: "4BF4F782BB659567"
+			rewards: [
+				{
+					id: "1F9589A29691F3A3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5CD67234CAD3B746"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4B378FB1C1B2C9B6"]
+			description: [
+				"{ftbquests.chapter.basics.quests29.description0}"
+				""
+				"{ftbquests.chapter.basics.quests29.description2}"
+				""
+				"{ftbquests.chapter.basics.quests29.description4}"
+			]
+			id: "06B922A788EDDEC4"
+			rewards: [
+				{
+					id: "715E6F4F64E208E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "31E0D91ADE40BCF9"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["203A551C239270CC"]
+			description: [
+				"{ftbquests.chapter.basics.quests30.description0}"
+				""
+				"{ftbquests.chapter.basics.quests30.description2}"
+			]
+			id: "36F0F4CB2DB0DC6F"
+			rewards: [
+				{
+					id: "00C545839245671B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests30.subtitle}"
+			tasks: [
+				{
+					id: "51298BAF518C7A9E"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests31.description0}"
+				""
+				"{ftbquests.chapter.basics.quests31.description2}"
+				""
+				"{ftbquests.chapter.basics.quests31.description4}"
+				""
+				"{ftbquests.chapter.basics.quests31.description6}"
+			]
+			icon: "paraglider:spirit_orb"
+			id: "7436ABDD8951C18F"
+			rewards: [
+				{
+					count: 4
+					id: "434657B780CD3573"
+					item: "paraglider:spirit_orb"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests31.subtitle}"
+			tasks: [
+				{
+					id: "122AA19F6DAFA8EF"
+					title: "{ftbquests.chapter.basics.quests31.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests31.title}"
+			x: -22.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: ["{ftbquests.chapter.basics.quests32.description}"]
+			icon: "alexscaves:cave_book"
+			id: "7928A20D0045F639"
+			rewards: [
+				{
+					id: "17219D3B2ADE76CA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6D121B48D7120E2B"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests32.subtitle}"
+			tasks: [
+				{
+					id: "1F3B75CF4A9081C1"
+					structure: "alexscaves:underground_cabin"
+					type: "structure"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests32.title}"
+			x: -9.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7928A20D0045F639"]
+			description: ["{ftbquests.chapter.basics.quests33.description}"]
+			id: "0B33930363EA8EA6"
+			rewards: [
+				{
+					id: "5B5D750CDEF200EC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests33.subtitle}"
+			tasks: [
+				{
+					id: "7BE42DB0963CD12C"
+					item: "alexscaves:spelunkery_table"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["{ftbquests.chapter.basics.quests34.description}"]
+			id: "44B09D1387E6E869"
+			rewards: [
+				{
+					id: "427CA655869197C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "2D1D2A4F4DD151B1"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests34.title}"
+			x: -9.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["{ftbquests.chapter.basics.quests35.description}"]
+			id: "416E90790D3E0649"
+			rewards: [
+				{
+					id: "202722CB3DD66DA2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "55F96ADA59F5C464"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests35.title}"
+			x: -10.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["{ftbquests.chapter.basics.quests36.description}"]
+			id: "37AFA8503CA03709"
+			rewards: [
+				{
+					id: "33C5B2A58607842A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "60C25629145C9123"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests36.title}"
+			x: -10.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["{ftbquests.chapter.basics.quests37.description}"]
+			id: "1A0BB8ACA52FBA1F"
+			rewards: [
+				{
+					id: "001F77E8130D72A4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "3FA84A95E328CE0E"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests37.title}"
+			x: -7.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0B33930363EA8EA6"]
+			description: ["{ftbquests.chapter.basics.quests38.description}"]
+			id: "5CCA336AA55B6C1B"
+			rewards: [
+				{
+					id: "59D7D74384CD8089"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "1BA9BA11B3A259D3"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests38.title}"
+			x: -7.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["416E90790D3E0649"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:primordial_caves"
+				}
+			}
+			id: "5952AF93B95E494C"
+			rewards: [
+				{
+					id: "4513960438D57A06"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					id: "7E61FA3DE51F62FD"
+					type: "biome"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests39.title}"
+			x: -12.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["37AFA8503CA03709"]
+			id: "52034A3AD5A347C8"
+			rewards: [
+				{
+					id: "6931B8CCFC75DDB9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					biome: "alexscaves:toxic_caves"
+					icon: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					id: "4F2577E08520A4D9"
+					type: "biome"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests40.title}"
+			x: -12.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["44B09D1387E6E869"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "073F2FEC3D06AC0E"
+			rewards: [
+				{
+					id: "3D4075D137A22448"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					biome: "alexscaves:magnetic_caves"
+					icon: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					id: "0B39CDF045054E4F"
+					type: "biome"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests41.title}"
+			x: -9.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["5CCA336AA55B6C1B"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:forlorn_hollows"
+				}
+			}
+			id: "724179DC4605ECC2"
+			rewards: [
+				{
+					id: "75522EBCFEB4314B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					id: "3D5A5EFAB3166B8B"
+					type: "biome"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests42.title}"
+			x: -6.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["1A0BB8ACA52FBA1F"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_tablet"
+				tag: {
+					CaveBiome: "alexscaves:abyssal_chasm"
+				}
+			}
+			id: "5782F8A43B93FC7D"
+			rewards: [
+				{
+					id: "7B08CB0811CA3F51"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: {
+						Count: 1b
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					id: "56B9DE98CE2C4DB4"
+					type: "biome"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests43.title}"
+			x: -5.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests44.description0}"
+				""
+				"{ftbquests.chapter.basics.quests44.description2}"
+				""
+				"{ftbquests.chapter.basics.quests44.description4}"
+				""
+				"{ftbquests.chapter.basics.quests44.description6}"
+				""
+				"{ftbquests.chapter.basics.quests44.description8}"
+				""
+				"{ftbquests.chapter.basics.quests44.description10}"
+			]
+			icon: "create:goggles"
+			id: "6D382620BBC1E6C0"
+			rewards: [
+				{
+					id: "1F572C2BD14B7F1B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1D986DC9FFE37C6A"
+					title: "{ftbquests.chapter.basics.quests44.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests44.title}"
+			x: -21.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"{ftbquests.chapter.basics.quests45.description0}"
+				""
+				"{ftbquests.chapter.basics.quests45.description2}"
+			]
+			id: "6CC91D69D83DE57A"
+			rewards: [
+				{
+					id: "6C5A280DB0F32962"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7AECB6D5CFF7AA77"
+					item: "jecalculation:item_calculator_craft"
+					type: "item"
+				}
+				{
+					id: "53DEC28362333950"
+					item: "jecalculation:item_calculator_math"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests45.title}"
+			x: 16.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: ["{ftbquests.chapter.basics.quests46.description}"]
+			id: "1E53659639A295D6"
+			rewards: [
+				{
+					id: "60A744A8580E3582"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "52B0934C4AB8F731"
+					item: "quark:trowel"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests47.description0}"
+				""
+				"{ftbquests.chapter.basics.quests47.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "epicsamurai:diamond_samurai_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0AC9C73D4060AE29"
+			rewards: [
+				{
+					id: "10090314F2EBAC8B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6F0C9FDD4263D695"
+					title: "{ftbquests.chapter.basics.quests47.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests47.title}"
+			x: -19.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests48.description0}"
+				""
+				"{ftbquests.chapter.basics.quests48.description2}"
+				""
+				""
+				"{ftbquests.chapter.basics.quests48.description5}"
+				""
+				"{ftbquests.chapter.basics.quests48.description7}"
+				""
+				"{ftbquests.chapter.basics.quests48.description9}"
+			]
+			id: "6205128D8BD81FE0"
+			rewards: [
+				{
+					id: "2C5C933092E25AB9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests48.subtitle}"
+			tasks: [
+				{
+					id: "6A97508FBE37DBEE"
+					item: "camera:camera"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["640C3588E6BA8DF2"]
+			description: ["{ftbquests.chapter.basics.quests49.description}"]
+			id: "77E129C820E2C154"
+			rewards: [
+				{
+					id: "4A6C92FC3FF626ED"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests49.subtitle}"
+			tasks: [
+				{
+					id: "03C5427638F1124F"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests50.description}"]
+			id: "68623EA6ABCAE7C7"
+			rewards: [
+				{
+					id: "00B7705D2CABE896"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests50.subtitle}"
+			tasks: [
+				{
+					id: "28D420D2D62375AD"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2F1F1047E8A734EC"]
+			description: [
+				"{ftbquests.chapter.basics.quests51.description0}"
+				""
+				"{ftbquests.chapter.basics.quests51.description2}"
+			]
+			id: "3D8B2D9B4488D1C4"
+			rewards: [
+				{
+					id: "3044588ADA2C34F9"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					id: "79F86FB1A5010108"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "06287D4183F54125"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests51.subtitle}"
+			tasks: [
+				{
+					id: "49E5F5147F07C67B"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"{ftbquests.chapter.basics.quests52.description0}"
+				""
+				"{ftbquests.chapter.basics.quests52.description2}"
+			]
+			id: "374A73FE0C12C105"
+			rewards: [
+				{
+					id: "6C6877A0C6DC69B4"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A8AA9F560CC2350"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "0EB8AE0F42606004"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests52.subtitle}"
+			tasks: [
+				{
+					id: "5FA9B1D918EC6529"
+					item: {
+						Count: 1b
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3D8B2D9B4488D1C4"]
+			description: [
+				"{ftbquests.chapter.basics.quests53.description0}"
+				""
+				"{ftbquests.chapter.basics.quests53.description2}"
+			]
+			id: "4E2CDE150137F5E9"
+			rewards: [
+				{
+					id: "532BB8E9D9518DEA"
+					item: "simplyswords:empowered_remnant"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "03BCC3F031B22DE0"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "412AC6A306F89E98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests53.subtitle}"
+			tasks: [
+				{
+					id: "5EC926FCEC96ADAC"
+					item: {
+						Count: 1b
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: [
+				"{ftbquests.chapter.basics.quests54.description0}"
+				""
+				"{ftbquests.chapter.basics.quests54.description2}"
+			]
+			id: "6D990A142A2A015B"
+			rewards: [
+				{
+					id: "4B5BFE5506677409"
+					item: "minecraft:painting"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "1F623C90349DE761"
+					item: "create:crafting_blueprint"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests54.title}"
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests55.description}"]
+			id: "64BDD35062B9FAF8"
+			rewards: [
+				{
+					id: "074A88EAA4BABA31"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "35890285183CAF11"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "7C520AF11FE6262D"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests55.title}"
+			x: 16.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests56.description}"]
+			id: "65553C55D7325C86"
+			rewards: [
+				{
+					id: "618BA373B8A1D655"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					icon: "create:blue_toolbox"
+					id: "1D1961EB37334B54"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:toolboxes"
+						}
+					}
+					title: "{ftbquests.chapter.basics.quests56.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests56.title}"
+			x: 15.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests57.description0}"
+				""
+				"{ftbquests.chapter.basics.quests57.description2}"
+				""
+				"{ftbquests.chapter.basics.quests57.description4}"
+			]
+			icon: "supplementaries:key"
+			id: "660C3D5CB407247F"
+			tasks: [
+				{
+					id: "6FD0241035AC0F91"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests57.title}"
+			x: -20.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests58.description0}"
+				""
+				"{ftbquests.chapter.basics.quests58.description2}"
+			]
+			id: "15E1385A52B7A632"
+			rewards: [
+				{
+					count: 2
+					id: "1C0F32826DE96674"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "03BEAC42E06086CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "20611962F187E5FB"
+					item: "toolbelt:belt"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"{ftbquests.chapter.basics.quests59.description0}"
+				""
+				"{ftbquests.chapter.basics.quests59.description2}"
+			]
+			id: "0D05759E84652BAA"
+			rewards: [
+				{
+					id: "5A4C954FF624C154"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "060CEA85A1BF9C84"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "constructionwand:stone_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:iron_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:diamond_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:infinity_wand"
+									tag: {
+										wand_options: { }
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.basics.quests59.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests59.title}"
+			x: -7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"{ftbquests.chapter.basics.quests60.description0}"
+				""
+				"{ftbquests.chapter.basics.quests60.description2}"
+				""
+				"{ftbquests.chapter.basics.quests60.description4}"
+			]
+			id: "478DE12D3EF8C22A"
+			rewards: [
+				{
+					id: "50E030E9EBB5E5CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 32
+					id: "1D06972FAEF3D196"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3BF67A3FC299BCB1"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests60.title}"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0C49795E134A27E0"]
+			description: [
+				"{ftbquests.chapter.basics.quests61.description0}"
+				""
+				"{ftbquests.chapter.basics.quests61.description2}"
+			]
+			id: "7EF948B39FBEA377"
+			rewards: [
+				{
+					id: "4A44E1F48CD46585"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "703514C592E5C630"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests61.title}"
+			x: -12.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"{ftbquests.chapter.basics.quests62.description0}"
+				""
+				"{ftbquests.chapter.basics.quests62.description2}"
+			]
+			icon: "minecraft:furnace"
+			id: "05B32DE12868C6DE"
+			rewards: [
+				{
+					id: "09C2CCAD1F30005D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:cobblestone"
+					id: "6509C61E10237C4F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "{ftbquests.chapter.basics.quests62.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "2EF81FCBEE5CCC21"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests62.title}"
+			x: -8.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: ["{ftbquests.chapter.basics.quests63.description}"]
+			id: "28B245505F91D21C"
+			rewards: [
+				{
+					id: "2CABA399E7A9D8B1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5B6E37E280F23809"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3FE10EF0A2154395"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests63.title}"
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests64.description0}"
+				""
+				"{ftbquests.chapter.basics.quests64.description2}"
+			]
+			id: "7FA5CDC0F616D2C5"
+			rewards: [
+				{
+					id: "6E032A8E6435C192"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "567D18852F5AB585"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests64.title}"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"{ftbquests.chapter.basics.quests65.description0}"
+				""
+				"{ftbquests.chapter.basics.quests65.description2}"
+				""
+				"{ftbquests.chapter.basics.quests65.description4}"
+				""
+				"{ftbquests.chapter.basics.quests65.description6}"
+			]
+			id: "7CCB17165A8E0D43"
+			rewards: [
+				{
+					id: "7E8541C1EC17E521"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [
+				{
+					id: "69CC3EFC64B0D5F6"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+				{
+					id: "2BDDEEDE78044DB7"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests65.title}"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests66.description0}"
+				""
+				"{ftbquests.chapter.basics.quests66.description2}"
+				""
+				"{ftbquests.chapter.basics.quests66.description4}"
+			]
+			hide: false
+			id: "0C4974DE21CEDF4B"
+			rewards: [
+				{
+					id: "2029C4079E097488"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0C5834C0899BEF2B"
+					item: {
+						Count: 1b
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests66.title}"
+			x: -2.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: [
+				"{ftbquests.chapter.basics.quests67.description0}"
+				""
+				"{ftbquests.chapter.basics.quests67.description2}"
+			]
+			id: "65B47B2E1AA75ED3"
+			rewards: [
+				{
+					id: "48CCA5D27575C069"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "760E2C0115B25B09"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:trim_templates"
+						}
+					}
+					title: "{ftbquests.chapter.basics.quests67.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests67.title}"
+			x: -3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0C4974DE21CEDF4B"]
+			description: [
+				"{ftbquests.chapter.basics.quests68.description0}"
+				""
+				"{ftbquests.chapter.basics.quests68.description2}"
+				""
+				"{ftbquests.chapter.basics.quests68.description4}"
+				""
+				"{ftbquests.chapter.basics.quests68.description6}"
+			]
+			id: "77EEE919C23E18B1"
+			rewards: [
+				{
+					id: "60B1B82C0EFA564B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests68.subtitle}"
+			tasks: [
+				{
+					id: "2DC4927BB3208BB3"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests68.title}"
+			x: -1.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["04D09899362AFC7A"]
+			description: ["{ftbquests.chapter.basics.quests69.description}"]
+			id: "06267D7C266DE215"
+			rewards: [
+				{
+					id: "5CCB3BCA3CDDC471"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "07A73C61881D36D0"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests69.title}"
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"{ftbquests.chapter.basics.quests70.description0}"
+				""
+				"{ftbquests.chapter.basics.quests70.description2}"
+				""
+				""
+			]
+			id: "72A5DEFDD0F3470D"
+			min_width: 300
+			rewards: [
+				{
+					id: "2DA219D2C2C27D52"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					count: 10L
+					id: "50E50067EA492EBE"
+					item: {
+						Count: 10b
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "726DAD7F99D8DE4E"
+					title: "{ftbquests.chapter.basics.quests70.tasks1.title}"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests70.title}"
+			x: 6.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7CCB17165A8E0D43"]
+			description: [
+				"{ftbquests.chapter.basics.quests71.description0}"
+				""
+				"{ftbquests.chapter.basics.quests71.description2}"
+				""
+				"{ftbquests.chapter.basics.quests71.description4}"
+				""
+				"{ftbquests.chapter.basics.quests71.description6}"
+				""
+				"{ftbquests.chapter.basics.quests71.description8}"
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:spell_parchment"
+				tag: { }
+			}
+			id: "7698E4E7CDD66E0D"
+			rewards: [
+				{
+					id: "620DD854667CEFD0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7F40C616C71144B5"
+					title: "{ftbquests.chapter.basics.quests71.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7CCB17165A8E0D43"]
+			description: [
+				"{ftbquests.chapter.basics.quests72.description0}"
+				""
+				"{ftbquests.chapter.basics.quests72.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+			id: "119EBE265E39757C"
+			rewards: [
+				{
+					id: "2FA068BB2914BAE8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests72.subtitle}"
+			tasks: [
+				{
+					id: "5128619AB7EB8CFE"
+					title: "{ftbquests.chapter.basics.quests72.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"{ftbquests.chapter.basics.quests73.description0}"
+				""
+				"{ftbquests.chapter.basics.quests73.description2}"
+				""
+				"{ftbquests.chapter.basics.quests73.description4}"
+				""
+				"{ftbquests.chapter.basics.quests73.description6}"
+			]
+			id: "123D70CA4959F172"
+			tasks: [
+				{
+					id: "60FB6758FF913425"
+					title: "{ftbquests.chapter.basics.quests73.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests73.title}"
+			x: 8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: [
+				"{ftbquests.chapter.basics.quests74.description0}"
+				""
+				"{ftbquests.chapter.basics.quests74.description2}"
+				""
+				"{ftbquests.chapter.basics.quests74.description4}"
+			]
+			id: "21FB9D855FA9D2DF"
+			tasks: [
+				{
+					id: "0D128D27E6FC641D"
+					title: "{ftbquests.chapter.basics.quests74.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests74.title}"
+			x: 13.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			description: ["{ftbquests.chapter.basics.quests75.description}"]
+			id: "327AE18669E4B9F0"
+			rewards: [
+				{
+					count: 5
+					id: "2FA95BED56ECC377"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "3D9D2F824D60EAC1"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests75.title}"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests76.description}"]
+			id: "097BB73C61F14C0A"
+			rewards: [
+				{
+					id: "7CE563842B465CA3"
+					item: "storagedrawers:upgrade_template"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "5B8CA56B5C1A9881"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					consume_items: false
+					id: "04EB28BC261F8CD3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+					title: "{ftbquests.chapter.basics.quests76.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests76.title}"
+			x: 13.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["06267D7C266DE215"]
+			id: "64407A1BC7A1761B"
+			rewards: [
+				{
+					count: 5
+					id: "2EAC8AD1D4DA625F"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests77.subtitle}"
+			tasks: [
+				{
+					id: "738762F3C4D13F40"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests77.title}"
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["64407A1BC7A1761B"]
+			description: ["{ftbquests.chapter.basics.quests78.description}"]
+			id: "21B2D54BEC60EEBA"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "020BB8FA670ACDBF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "614AB7D1376A35D8"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests78.subtitle}"
+			tasks: [
+				{
+					id: "2EF839E376CC3794"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["64407A1BC7A1761B"]
+			description: ["{ftbquests.chapter.basics.quests79.description}"]
+			id: "53BB590289D14A36"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "3FF4EB7206190740"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "107E63D536FD86FF"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests79.subtitle}"
+			tasks: [
+				{
+					id: "441FDC9E0D83D1CE"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["53BB590289D14A36"]
+			description: ["{ftbquests.chapter.basics.quests80.description}"]
+			id: "56BE267CE6F7C4F9"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "31D8A6E3B108C83E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "71076F11E5C2A69A"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests80.subtitle}"
+			tasks: [
+				{
+					id: "1299CA8805944EDF"
+					item: "minecraft:enchanted_golden_apple"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests80.title}"
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["53BB590289D14A36"]
+			description: ["{ftbquests.chapter.basics.quests81.description}"]
+			id: "75E7A82BD3F3EC45"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6B287EF87FB18DF5"
+					item: "create_sa:heap_of_experience"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests81.subtitle}"
+			tasks: [
+				{
+					id: "74A07D11B2230ED8"
+					item: "create_sa:heap_of_experience"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["53BB590289D14A36"]
+			description: ["{ftbquests.chapter.basics.quests82.description}"]
+			id: "4D55A7ABD7557FF1"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "44E85A96EE9EBEAD"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests82.subtitle}"
+			tasks: [
+				{
+					id: "553B43AE4BF55FB0"
+					item: "minecraft:enchanted_book"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests82.title}"
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["21B2D54BEC60EEBA"]
+			description: ["{ftbquests.chapter.basics.quests83.description}"]
+			id: "7A39A5B9E3CAC840"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "3B14AED412DF53F4"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests83.subtitle}"
+			tasks: [
+				{
+					id: "5012467FACC9F5E3"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			description: ["{ftbquests.chapter.basics.quests84.description}"]
+			id: "70457BBE36DC7C91"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "12FE535737531924"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests84.subtitle}"
+			tasks: [
+				{
+					id: "71F5A6C3DE6C00C3"
+					title: "{ftbquests.chapter.basics.quests84.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests84.title}"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			description: ["{ftbquests.chapter.basics.quests85.description}"]
+			id: "4AD661C0A10ABD3B"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "582357A8F43D5FFC"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests85.subtitle}"
+			tasks: [
+				{
+					id: "63240FE48620A116"
+					title: "{ftbquests.chapter.basics.quests85.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["64407A1BC7A1761B"]
+			description: [
+				"{ftbquests.chapter.basics.quests86.description0}"
+				""
+				"{ftbquests.chapter.basics.quests86.description2}"
+				""
+				"{ftbquests.chapter.basics.quests86.description4}"
+			]
+			id: "1D267ADE18DD9817"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "29A5BDA41604E94B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests86.subtitle}"
+			tasks: [
+				{
+					id: "5C555DA2B31F56BC"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"21B2D54BEC60EEBA"
+				"53BB590289D14A36"
+				"70457BBE36DC7C91"
+				"4AD661C0A10ABD3B"
+			]
+			description: [
+				"{ftbquests.chapter.basics.quests87.description0}"
+				""
+				"{ftbquests.chapter.basics.quests87.description2}"
+				""
+				"{ftbquests.chapter.basics.quests87.description4}"
+			]
+			id: "1511BEF5725A6F63"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "05540232F32AFC18"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests87.subtitle}"
+			tasks: [
+				{
+					id: "0B7EC5C104467478"
+					item: "create_enchantment_industry:enchanting_guide"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1511BEF5725A6F63"]
+			description: [
+				"{ftbquests.chapter.basics.quests88.description0}"
+				""
+				"{ftbquests.chapter.basics.quests88.description2}"
+				""
+				"{ftbquests.chapter.basics.quests88.description4}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create_enchantment_industry:item/hyper_experience_bottle"
+				}
+			}
+			id: "35BB0498DD5DC544"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "309B0914D0411478"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests88.subtitle}"
+			tasks: [
+				{
+					id: "7732B5DC114EB3F3"
+					title: "{ftbquests.chapter.basics.quests88.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["35BB0498DD5DC544"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/enchanting_table_top"
+				}
+			}
+			id: "43D4387F9D3CCF41"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 5
+					id: "525AEA381574F1D1"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.basics.quests89.subtitle}"
+			tasks: [
+				{
+					id: "314FD37C28AAF053"
+					title: "{ftbquests.chapter.basics.quests89.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7FA5CDC0F616D2C5"]
+			description: [
+				"{ftbquests.chapter.basics.quests90.description0}"
+				""
+				"{ftbquests.chapter.basics.quests90.description2}"
+			]
+			id: "04D09899362AFC7A"
+			tasks: [
+				{
+					id: "4E1D5074A8E3A8D2"
+					title: "{ftbquests.chapter.basics.quests90.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests90.title}"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"{ftbquests.chapter.basics.quests91.description0}"
+				""
+				""
+				"{ftbquests.chapter.basics.quests91.description3}"
+				"{ftbquests.chapter.basics.quests91.description4}"
+				""
+				"{ftbquests.chapter.basics.quests91.description6}"
+				"{ftbquests.chapter.basics.quests91.description7}"
+				""
+				"{ftbquests.chapter.basics.quests91.description9}"
+				"{ftbquests.chapter.basics.quests91.description10}"
+				""
+				"{ftbquests.chapter.basics.quests91.description12}"
+				"{ftbquests.chapter.basics.quests91.description13}"
+				""
+				"{ftbquests.chapter.basics.quests91.description15}"
+				""
+				"{ftbquests.chapter.basics.quests91.description17}"
+			]
+			id: "640C3588E6BA8DF2"
+			rewards: [
+				{
+					id: "71C3D2FFBD888B63"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "66A18BC1D70CC3C1"
+					title: "{ftbquests.chapter.basics.quests91.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests91.title}"
+			x: -12.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3CE1B3AB173035B9"]
+			description: [
+				"{ftbquests.chapter.basics.quests92.description0}"
+				""
+				"{ftbquests.chapter.basics.quests92.description2}"
+				""
+				"{ftbquests.chapter.basics.quests92.description4}"
+				""
+				"{ftbquests.chapter.basics.quests92.description6}"
+				""
+				"{ftbquests.chapter.basics.quests92.description8}"
+			]
+			id: "323158E5DCC9CB18"
+			subtitle: "{ftbquests.chapter.basics.quests92.subtitle}"
+			tasks: [
+				{
+					id: "0A95A2D6DCAB5873"
+					item: "heartstone:heartstone"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.basics.quests93.description0}"
+				""
+				"{ftbquests.chapter.basics.quests93.description2}"
+				""
+				"{ftbquests.chapter.basics.quests93.description4}"
+				""
+				"{ftbquests.chapter.basics.quests93.description6}"
+				""
+				"{ftbquests.chapter.basics.quests93.description8}"
+			]
+			icon: "twilightforest:ore_map"
+			id: "2E3B821A8A402B3E"
+			tasks: [
+				{
+					id: "5A0FD6D40314D526"
+					title: "{ftbquests.chapter.basics.quests93.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests93.title}"
+			x: -21.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests94.description}"]
+			id: "6A532E6DD8742675"
+			rewards: [
+				{
+					id: "0F7A0972D7B3E32F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "73FB56BC99572AE8"
+					item: "create:wand_of_symmetry"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"{ftbquests.chapter.basics.quests95.description0}"
+				""
+				"{ftbquests.chapter.basics.quests95.description2}"
+				""
+				"{ftbquests.chapter.basics.quests95.description4}"
+			]
+			id: "714B3994BC2C04CB"
+			tasks: [
+				{
+					id: "3AE7928601517133"
+					item: "quark:abacus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests95.title}"
+			x: -8.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			description: ["{ftbquests.chapter.basics.quests96.description}"]
+			id: "27B45F8E0C5718F7"
+			rewards: [
+				{
+					id: "595571ED03CEC951"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "39028376A1090EEA"
+					item: "toms_trading_network:vending_machine"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["05DF598DEBADABC3"]
+			description: [
+				"{image:kubejs:textures/molten_vents.png width:350 height:200 align:1}"
+				""
+				"{ftbquests.chapter.basics.quests97.description2}"
+				""
+				"{ftbquests.chapter.basics.quests97.description4}"
+			]
+			id: "67145CE26EFAD16D"
+			tasks: [
+				{
+					id: "2705180D70FA1C18"
+					title: "{ftbquests.chapter.basics.quests97.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests97.title}"
+			x: -5.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["67145CE26EFAD16D"]
+			description: [
+				"{ftbquests.chapter.basics.quests98.description0}"
+				""
+				"{ftbquests.chapter.basics.quests98.description2}"
+				""
+				"{ftbquests.chapter.basics.quests98.description4}"
+				"{ftbquests.chapter.basics.quests98.description5}"
+				""
+				"{ftbquests.chapter.basics.quests98.description7}"
+				""
+				"{ftbquests.chapter.basics.quests98.description9}"
+				""
+				"{ftbquests.chapter.basics.quests98.description11}"
+				""
+				""
+				"{ftbquests.chapter.basics.quests98.description14}"
+				"{ftbquests.chapter.basics.quests98.description15}"
+				""
+				"{ftbquests.chapter.basics.quests98.description17}"
+			]
+			id: "0D0118FCEFE0A8E2"
+			tasks: [
+				{
+					id: "3F0F062B13DBD93A"
+					title: "{ftbquests.chapter.basics.quests98.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests98.title}"
+			x: -5.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["05B32DE12868C6DE"]
+			description: [
+				"{ftbquests.chapter.basics.quests99.description0}"
+				""
+				"{ftbquests.chapter.basics.quests99.description2}"
+				""
+				"{ftbquests.chapter.basics.quests99.description4}"
+				""
+				"{ftbquests.chapter.basics.quests99.description6}"
+				"{ftbquests.chapter.basics.quests99.description7}"
+				"{ftbquests.chapter.basics.quests99.description8}"
+				"{ftbquests.chapter.basics.quests99.description9}"
+			]
+			id: "419327E6573538F7"
+			rewards: [
+				{
+					count: 15
+					id: "2A7D00993B48E84D"
+					item: {
+						Count: 1b
+						id: "chalk:yellow_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6FF668A7502BD876"
+					item: {
+						Count: 1b
+						id: "chalk:chalk_box"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "367973CDFE4547F1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chalks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests99.title}"
+			x: -9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"{ftbquests.chapter.basics.quests100.description0}"
+				""
+				"{ftbquests.chapter.basics.quests100.description2}"
+				""
+				"{ftbquests.chapter.basics.quests100.description4}"
+				""
+				"{ftbquests.chapter.basics.quests100.description6}"
+				""
+				"{ftbquests.chapter.basics.quests100.description8}"
+			]
+			id: "7C72177A2822A166"
+			rewards: [
+				{
+					id: "6B5E0B1AFEE93BCE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7EE639E3F72F2181"
+					item: "labels:label"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests100.title}"
+			x: -11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.basics.quests101.description0}"
+				""
+				"{ftbquests.chapter.basics.quests101.description2}"
+				""
+				"{ftbquests.chapter.basics.quests101.description4}"
+				""
+				"{ftbquests.chapter.basics.quests101.description6}"
+			]
+			id: "5525E70F7FBDBD92"
+			tasks: [
+				{
+					id: "27FA3D59FA635932"
+					item: "createdeco:decal_warning"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests101.title}"
+			x: -19.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			description: [
+				"{ftbquests.chapter.basics.quests102.description0}"
+				""
+				"{ftbquests.chapter.basics.quests102.description2}"
+			]
+			id: "6BF73E8BF5844527"
+			rewards: [
+				{
+					id: "35AE171E2836FC71"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "29D80872F625649F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.basics.quests102.title}"
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["28B245505F91D21C"]
+			description: [
+				"{ftbquests.chapter.basics.quests103.description0}"
+				""
+				"{ftbquests.chapter.basics.quests103.description2}"
+				""
+				""
+				"{ftbquests.chapter.basics.quests103.description5}"
+				""
+				"{ftbquests.chapter.basics.quests103.description7}"
+				""
+				"{ftbquests.chapter.basics.quests103.description9}"
+				""
+				"{ftbquests.chapter.basics.quests103.description11}"
+			]
+			id: "715415DD1D493D8E"
+			rewards: [
+				{
+					id: "76ACB3A825340239"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "4CD4529B4670AF0A"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["21FB9D855FA9D2DF"]
+			id: "42CDB69FF6A817D1"
+			subtitle: "{ftbquests.chapter.basics.quests104.subtitle}"
+			tasks: [
+				{
+					id: "5E16A1B18678318C"
+					item: "moped:copper_moped_item"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 20.0d
+		}
+	]
+	title: "{ftbquests.chapter.basics.title}"
+}

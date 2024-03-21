@@ -1,0 +1,642 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i_the_andesite_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "kubejs:andesite_machine"
+		tag: {
+			Enchantments: [
+				{ }
+			]
+		}
+	}
+	id: "0459D6A74275DD3C"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 4.0d
+			y: -5.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.description4}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.description6}"
+			]
+			hide_dependency_lines: true
+			icon: "twilightforest:time_sapling"
+			id: "12796FE2B6E3D53E"
+			rewards: [
+				{
+					count: 2
+					id: "241CF8EB10742E6B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A6BDC527F3A10DE"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6570B0CBBB61B903"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.title}"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["12796FE2B6E3D53E"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests1.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests1.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests1.description4}"
+			]
+			id: "0C58CBF1F4D636FC"
+			rewards: [
+				{
+					count: 2
+					id: "559AA194623B61BA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C92AA3CAF9AEAD3"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "49A349EDC9F68F2B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests1.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C58CBF1F4D636FC"]
+			description: ["{ftbquests.chapter.chapter_i_the_andesite_machine.quests2.description}"]
+			id: "5C5BBEA6E03836C7"
+			rewards: [
+				{
+					count: 2
+					id: "40F0C1B819CB28EA"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "125195B8E31B68C8"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "38C48144798950D8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:vanilla_stripped_logs"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests2.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C5BBEA6E03836C7"]
+			description: ["{ftbquests.chapter.chapter_i_the_andesite_machine.quests3.description}"]
+			id: "5D5914AC9E5722EF"
+			rewards: [
+				{
+					count: 2
+					id: "686563B7B3E6BC35"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05452EAA7FA877BB"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0472A7BE9E04C326"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests3.title}"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D5914AC9E5722EF"]
+			description: ["{ftbquests.chapter.chapter_i_the_andesite_machine.quests4.description}"]
+			id: "507927EEC1417661"
+			rewards: [
+				{
+					count: 2
+					id: "48A578EBA55BB619"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "152D17CC48AFF968"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7EDC0295D42294EE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wooden_slabs"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests4.title}"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests5.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests5.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests5.description4}"
+			]
+			hide_dependency_lines: true
+			id: "6528F97D788A957A"
+			rewards: [
+				{
+					count: 2
+					id: "15601A9F64FD750E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE38AE7AD47A4E7"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "78AD80DDFB004EB4"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests5.title}"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests6.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests6.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests6.description4}"
+			]
+			hide_dependency_lines: true
+			id: "72070D0355244B40"
+			rewards: [
+				{
+					count: 2
+					id: "0D3422F7EA4A823B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B21491A4B9C7B0F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "61B23653DEBA1D46"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests6.title}"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6528F97D788A957A"
+				"72070D0355244B40"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests7.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests7.description2}"
+			]
+			id: "5DB498A2D21DEC4D"
+			rewards: [
+				{
+					count: 2
+					id: "482C57DD1749FAEF"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E10C92B2759B3CD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "47EEF251F08E2BC4"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests7.title}"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DB498A2D21DEC4D"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests8.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests8.description2}"
+			]
+			id: "53EB7E023803E1B4"
+			rewards: [
+				{
+					count: 2
+					id: "26335B4810B5614B"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65603C728EB8CDDD"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B7A47255138EA52"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests8.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53EB7E023803E1B4"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests9.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests9.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests9.description4}"
+			]
+			id: "7FE2DE6213FF326A"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "566933CB4370622D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1485BED3EB93240F"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5A0ADC667A80FA30"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests9.title}"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7FE2DE6213FF326A"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests10.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests10.description2}"
+			]
+			id: "43D6EC530F7F1126"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "7E560B65674B8053"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50B1831054F33B43"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1FF830E699AC26FB"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests10.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0BEFDBD8AC519539"
+				"507927EEC1417661"
+				"43D6EC530F7F1126"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests11.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests11.description2}"
+			]
+			id: "5E60FF6098CB030B"
+			rewards: [
+				{
+					count: 2
+					id: "1BBCA865D2FE571D"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6D576FBEE6EAA53D"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76AB79084D819171"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests11.subtitle}"
+			tasks: [
+				{
+					id: "1F9AFA49030B5A0B"
+					item: "kubejs:rotation_mechanism"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests11.title}"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["342BCE36CF749057"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests12.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests12.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests12.description4}"
+			]
+			hide_dependency_lines: true
+			id: "0BEFDBD8AC519539"
+			rewards: [
+				{
+					count: 2
+					id: "12C841CB82E23820"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "030DC0334B9AAC2E"
+					table_id: 1302780656980067940L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7C657F9C765B5184"
+					item: {
+						Count: 1b
+						id: "ad_astra:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests12.title}"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E60FF6098CB030B"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests13.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests13.description2}"
+				" "
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests13.description4}"
+			]
+			hide: true
+			id: "3AEFFAED564130A6"
+			rewards: [
+				{
+					count: 2
+					id: "04B8BC5611C5310E"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "131F93BE1FCD6209"
+					item: "kubejs:andesite_machine"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0DD14B34DB4A7B93"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2475DBB309D7CCD4"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01F40A2E704680D9"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "10508B211B77AB83"
+					item: "kubejs:andesite_machine"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests13.title}"
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			description: [
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description0}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description2}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description4}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description6}"
+				""
+				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description8}"
+			]
+			hide: true
+			hide_dependent_lines: true
+			id: "342BCE36CF749057"
+			rewards: [
+				{
+					id: "503FF713551DE57F"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "551C7824C044FF34"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "34A85CE8EAFB3E78"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "7C4136DEB3AB9EFF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6A51B9F0E37DED09"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7970E483F81A6425"
+					title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.title}"
+			x: 4.0d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_i_the_andesite_machine.title}"
+}

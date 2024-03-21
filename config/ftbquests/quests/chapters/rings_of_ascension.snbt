@@ -1,0 +1,684 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "rings_of_ascension"
+	group: "53374CFE946B8348"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "ringsofascension:ring_slow_falling"
+	id: "000000000000031C"
+	images: [
+		{
+			click: ""
+			color: 3434985
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			click: ""
+			color: 13004288
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/particle/spark_0.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "enlightened_end:textures/particle/teleporter_spark_1.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 14.0d
+			hover: [ ]
+			image: "kubejs:textures/rings.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests0.description}"]
+			id: "000000000000032A"
+			rewards: [
+				{
+					id: "59F0A2478F033F31"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests0.subtitle}"
+			tasks: [
+				{
+					id: "000000000000032B"
+					item: "ringsofascension:ring_night_vision"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests0.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests1.description}"]
+			id: "00000000000003A3"
+			rewards: [
+				{
+					id: "50D2341A45E50AFF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests1.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003A4"
+					item: "ringsofascension:ring_regeneration"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests1.title}"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests2.description}"]
+			id: "00000000000003A5"
+			rewards: [
+				{
+					id: "64C3F5EAB53C0598"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests2.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003A6"
+					item: "ringsofascension:ring_poison_resistance"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests2.title}"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests3.description}"]
+			id: "00000000000003A9"
+			rewards: [
+				{
+					id: "06D60DEFE3FEF59D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests3.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003AA"
+					item: "ringsofascension:ring_strength"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests3.title}"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests4.description}"]
+			id: "00000000000003AB"
+			rewards: [
+				{
+					id: "26821BD139D0B7F3"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests4.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003AC"
+					item: "ringsofascension:ring_growth"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests4.title}"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests5.description}"]
+			id: "00000000000003AF"
+			rewards: [
+				{
+					id: "5645A6D9FB673D78"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests5.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003B0"
+					item: "ringsofascension:ring_invisibility"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests5.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests6.description}"]
+			id: "00000000000003B1"
+			rewards: [
+				{
+					id: "00721004C29D260E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests6.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003B2"
+					item: "ringsofascension:ring_water_breathing"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests6.title}"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests7.description}"]
+			hide: true
+			id: "00000000000003B5"
+			rewards: [
+				{
+					id: "19F16C0316ACC5FF"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests7.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003B6"
+					item: "ringsofascension:ring_wither"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests7.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests8.description}"]
+			id: "00000000000003B8"
+			rewards: [
+				{
+					id: "05064E49AE423F96"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests8.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003B9"
+					item: "ringsofascension:ring_dolphin"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests8.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests9.description}"]
+			id: "00000000000003BB"
+			rewards: [
+				{
+					id: "447CDA14655C706C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests9.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003BC"
+					item: "ringsofascension:ring_knockback_resistance"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests9.title}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests10.description}"]
+			id: "00000000000003BE"
+			rewards: [
+				{
+					id: "0020300BD9EF99B9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests10.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003BF"
+					item: "ringsofascension:ring_fire_resistance"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests10.title}"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests11.description}"]
+			id: "00000000000003C1"
+			rewards: [
+				{
+					id: "105AA2A3A8E7FD25"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests11.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003C2"
+					item: "ringsofascension:ring_experience"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests11.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests12.description}"]
+			id: "00000000000003C4"
+			rewards: [
+				{
+					id: "3161B782D5915B45"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests12.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003C5"
+					item: "ringsofascension:ring_sponge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests12.title}"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests13.description}"]
+			id: "00000000000003C7"
+			rewards: [
+				{
+					id: "0BF341DD10476F47"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests13.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003C8"
+					item: "ringsofascension:ring_mining"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests13.title}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests14.description}"]
+			id: "00000000000003CA"
+			rewards: [
+				{
+					id: "56EA55F689ADA2F7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests14.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003CB"
+					item: "ringsofascension:ring_health"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests14.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests15.description}"]
+			id: "00000000000003CD"
+			rewards: [
+				{
+					id: "7ECAA07595672464"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests15.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003CE"
+					item: "ringsofascension:ring_slow_resistance"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests15.title}"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests16.description}"]
+			id: "00000000000003D0"
+			rewards: [
+				{
+					id: "03F6A49BC06FF04D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests16.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003D1"
+					item: "ringsofascension:ring_jump_boost"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests16.title}"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests17.description}"]
+			id: "00000000000003D2"
+			rewards: [
+				{
+					id: "6D3C790A0FB92A82"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests17.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003D3"
+					item: "ringsofascension:ring_luck"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests17.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests18.description}"]
+			id: "00000000000003D6"
+			rewards: [
+				{
+					id: "4E6AA0F67D3B13DD"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests18.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003D7"
+					item: "ringsofascension:ring_speed"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests18.title}"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: ["{ftbquests.chapter.rings_of_ascension.quests19.description}"]
+			id: "00000000000003D9"
+			rewards: [
+				{
+					id: "5074AE73AA6C672F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests19.subtitle}"
+			tasks: [
+				{
+					id: "00000000000003DA"
+					item: "ringsofascension:ring_slow_falling"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests19.title}"
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"00000000000003C1"
+				"00000000000003A3"
+				"00000000000003C4"
+				"00000000000003A5"
+				"00000000000003C7"
+				"00000000000003A9"
+				"000000000000032A"
+				"00000000000003CA"
+				"00000000000003AB"
+				"00000000000003CD"
+				"00000000000003AF"
+				"00000000000003D0"
+				"00000000000003B1"
+				"00000000000003D2"
+				"00000000000003B5"
+				"00000000000003D6"
+				"00000000000003B8"
+				"00000000000003D9"
+				"00000000000003BB"
+				"00000000000003BE"
+				"0D3F7751B579353F"
+				"64157A1BC3E09963"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "67B117317EB077BA"
+			invisible: true
+			rewards: [
+				{
+					id: "64337688FD649BE8"
+					item: {
+						Count: 1b
+						id: "simplyswords:dormant_relic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DE1242F13C45E88"
+					item: "kubejs:ascendant_badge"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests20.subtitle}"
+			tasks: [
+				{
+					id: "398E6380D04A8795"
+					title: "{ftbquests.chapter.rings_of_ascension.quests20.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			id: "08913D75A611396B"
+			rewards: [
+				{
+					id: "15869D5C3084D857"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests21.subtitle}"
+			tasks: [
+				{
+					id: "3C6522DEFC6EAD3C"
+					item: "ringsofascension:ring_water_walking"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests21.title}"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			id: "7B8E7F4A2D5BB1F0"
+			rewards: [
+				{
+					id: "53B32688D804A7B6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests22.subtitle}"
+			tasks: [
+				{
+					id: "37948693F35D0718"
+					item: "ringsofascension:ring_magnetism"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests22.title}"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0D0118FCEFE0A8E2"]
+			description: [""]
+			id: "64157A1BC3E09963"
+			rewards: [
+				{
+					id: "7B46734FBCBF6692"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.rings_of_ascension.quests23.subtitle}"
+			tasks: [
+				{
+					id: "0D3F7751B579353F"
+					item: "ringsofascension:ring_steadfast_steps"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.rings_of_ascension.quests23.title}"
+			x: -2.0d
+			y: 7.5d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.rings_of_ascension.subtitle}"]
+	title: "{ftbquests.chapter.rings_of_ascension.title}"
+}

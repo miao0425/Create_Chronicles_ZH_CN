@@ -1,0 +1,1975 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_x_applied_energetics"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "ae2:controller"
+		tag: {
+			Enchantments: [
+				{ }
+			]
+		}
+	}
+	id: "00B2BB3A1CF3EA69"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: -1.5d
+			y: -4.0d
+		}
+	]
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["78425DC3875B9854"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests0.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests0.description2}"
+			]
+			id: "4CCA16E6E4070E37"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests0.subtitle}"
+			tasks: [
+				{
+					id: "7848E7B9804E09D5"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+				{
+					id: "2D5FD76C3DD84A03"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "08BB75EE5DC5A040"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6884A34F4C7448D7"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "5071BB148EF1358D"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5F99D59B31FF34D4"
+				"4CCA16E6E4070E37"
+			]
+			id: "5B24C4560809333B"
+			tasks: [
+				{
+					id: "40B35917487461D0"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5F99D59B31FF34D4"
+			tasks: [
+				{
+					id: "7AE20B3EF81A3343"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4919AEB1300D63B7"]
+			id: "76CB692248EAF336"
+			tasks: [
+				{
+					id: "2753728847ABC719"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "6218C8A03E9C795C"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "76F49E4A5A97BD89"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4919AEB1300D63B7"
+			tasks: [
+				{
+					id: "678BE1D28085C785"
+					item: "create_dd:integrated_circuit"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5B24C4560809333B"
+				"76CB692248EAF336"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests5.description}"]
+			id: "3026C7FFA3B230FA"
+			tasks: [
+				{
+					id: "5DF56494EA4619D2"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "14E4C67AD74F0782"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3B2E97CE351409CF"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["108EA49E8421CCC7"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests6.description}"]
+			hide: true
+			hide_dependency_lines: true
+			id: "78425DC3875B9854"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests6.subtitle}"
+			tasks: [
+				{
+					id: "51AA3BC3AFF2FEDA"
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests6.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests6.title}"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78425DC3875B9854"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests7.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests7.description2}"
+			]
+			id: "5D3EA637C19E26F4"
+			rewards: [
+				{
+					id: "1D670A1D6B660880"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests7.subtitle}"
+			tasks: [
+				{
+					id: "4F8C0625674B4C26"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:quartz_wrench"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests7.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests8.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests8.description2}"
+			]
+			id: "79A7417475A593C6"
+			rewards: [
+				{
+					id: "0A121DA56B19C70D"
+					type: "random"
+				}
+				{
+					id: "126ED16DF4BD65B4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests8.subtitle}"
+			tasks: [
+				{
+					id: "73BB99DDF4F2A850"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["79A7417475A593C6"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests9.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests9.description2}"
+			]
+			id: "25F281C3D8849819"
+			rewards: [
+				{
+					id: "4423CC3D5D71E079"
+					type: "random"
+				}
+				{
+					id: "0E04CCB12AEABDC8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "73F78F34C037FF02"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "65D871400D4B5C22"
+					item: {
+						Count: 1b
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25F281C3D8849819"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests10.description}"]
+			id: "738C5CDEA3283099"
+			rewards: [
+				{
+					id: "3A74555E1BFB5373"
+					type: "random"
+				}
+				{
+					id: "6FBCD5EB6F46ADE8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "45FE9A0E61ADC342"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests11.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests11.description2}"
+			]
+			id: "3B06C0FF8E28AC91"
+			rewards: [
+				{
+					id: "4416FC68EE90FAFE"
+					type: "random"
+				}
+				{
+					id: "7ABA25494FDEB81A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1C3E8F39C6742C46"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39191D18403BB2C5"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5B26C0566D1B4E03"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests11.title}"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B06C0FF8E28AC91"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests12.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests12.description2}"
+			]
+			icon: "ae2:singularity"
+			id: "229F5549A476E523"
+			rewards: [
+				{
+					id: "2C6C56E7479DA25A"
+					type: "random"
+				}
+				{
+					id: "0FFEA304CBC22EBB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests12.subtitle}"
+			tasks: [
+				{
+					id: "09FD675161F2C509"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "171A0F119D939289"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+				{
+					id: "1A582B97C30A3E08"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests12.title}"
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests13.description}"]
+			icon: "ae2:fluix_crystal"
+			id: "3F83272A3D958DAB"
+			rewards: [
+				{
+					count: 4
+					id: "4B158A2DF54E4AF9"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "55AB4B835114E35A"
+					type: "random"
+				}
+				{
+					id: "3A2DB97F3C8432C7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "7D97F5423A7E42AD"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "735C7BED83E1A75B"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests13.title}"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F83272A3D958DAB"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests14.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests14.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests14.description4}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests14.description6}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests14.description8}"
+			]
+			id: "52E7496E0A9118F6"
+			rewards: [
+				{
+					id: "577F9E211E7D3CE2"
+					type: "random"
+				}
+				{
+					id: "6B0F82C6592DDA2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "02603EEC37FE0012"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests14.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "1C2E3C609A8DFD6D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests14.tasks1.title}"
+					type: "item"
+				}
+				{
+					id: "0BEEDF43E748F047"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests14.tasks2.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests14.title}"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["52E7496E0A9118F6"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests15.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests15.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests15.description4}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests15.description6}"
+			]
+			id: "3D2DDC65DED45F4A"
+			rewards: [
+				{
+					id: "09951A74EC991C7D"
+					type: "random"
+				}
+				{
+					id: "03379D3A97E0A04A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1297D459D6B7395E"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["52E7496E0A9118F6"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests16.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests16.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests16.description4}"
+			]
+			icon: "ae2:cable_anchor"
+			id: "6F8A1655E91E7E89"
+			rewards: [
+				{
+					id: "4CB6E8DF68415340"
+					type: "random"
+				}
+				{
+					id: "4E4B16DCFAA8E28B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests16.subtitle}"
+			tasks: [
+				{
+					id: "2C451A484DE8CB1B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:knife"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests16.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "3F5847ED2C4851E7"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "3C8112F63761713A"
+					item: {
+						Count: 1b
+						id: "ae2:name_press"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests16.title}"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["52E7496E0A9118F6"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests17.description}"]
+			id: "5BCF209E014D37E6"
+			rewards: [
+				{
+					id: "10D575CE1A1D1BFB"
+					type: "random"
+				}
+				{
+					id: "73B2E0E9789C870A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2A27534ADC8B669E"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests17.subtitle}"
+			tasks: [
+				{
+					id: "186E974B0E4A0EF6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests17.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "3D5C2226F8539904"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests17.tasks1.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests17.title}"
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["52E7496E0A9118F6"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests18.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests18.description2}"
+			]
+			id: "7A47716BA89E7B06"
+			rewards: [
+				{
+					id: "51076FC734450255"
+					type: "random"
+				}
+				{
+					id: "6B93B89D63DEB503"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "572862A2DE10F1C2"
+					item: {
+						Count: 1b
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests18.title}"
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["229F5549A476E523"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests19.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests19.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests19.description4}"
+			]
+			id: "093F71164A80A452"
+			tasks: [
+				{
+					id: "7DD5364D658B121F"
+					item: "ae2:condenser"
+					type: "item"
+				}
+				{
+					id: "674CDB46BEBDFE83"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests19.title}"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3D2DDC65DED45F4A"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests20.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests20.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests20.description4}"
+			]
+			id: "171DB69D600EBD90"
+			rewards: [
+				{
+					id: "23581A3AD853DADF"
+					type: "random"
+				}
+				{
+					id: "7989CCFEB7EDE569"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests20.subtitle}"
+			tasks: [
+				{
+					id: "38C24D86AEFA5043"
+					item: "ae2:chest"
+					type: "item"
+				}
+				{
+					id: "3113FDE87B06AD86"
+					item: "ae2:drive"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests20.title}"
+			x: -5.0d
+			y: 13.75d
+		}
+		{
+			dependencies: ["171DB69D600EBD90"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests21.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests21.description2}"
+			]
+			id: "580F889F027A87FE"
+			rewards: [
+				{
+					id: "6FE1849F40566B9F"
+					type: "random"
+				}
+				{
+					id: "46C8C3B106287313"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests21.subtitle}"
+			tasks: [
+				{
+					id: "506040CF7E3A171A"
+					item: "ae2:io_port"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["171DB69D600EBD90"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests22.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests22.description2}"
+			]
+			id: "4256AD377F068FF4"
+			rewards: [
+				{
+					id: "7098568191670FDB"
+					type: "random"
+				}
+				{
+					id: "4B721FB0F90BAEE9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "268F11E54135AA5B"
+					item: "ae2:cell_workbench"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4256AD377F068FF4"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests23.description}"]
+			id: "3D470D57CC2E7A9E"
+			rewards: [
+				{
+					id: "6EF941B8A5211599"
+					type: "random"
+				}
+				{
+					id: "64C0A6A067A6A86D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "40C359C66A5A035E"
+					item: "ae2:void_card"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4256AD377F068FF4"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests24.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests24.description2}"
+			]
+			id: "61742FBBD1E5D42F"
+			rewards: [
+				{
+					id: "10EE0F6537E02EDC"
+					type: "random"
+				}
+				{
+					id: "386E583B0B608DDD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests24.subtitle}"
+			tasks: [
+				{
+					id: "53B1EAB52C41910A"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests25.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests25.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests25.description4}"
+			]
+			icon: "ae2:pattern_provider"
+			id: "130A80D8B3E4EA98"
+			rewards: [
+				{
+					id: "4F923BD94CE2F2E2"
+					type: "random"
+				}
+				{
+					id: "349B89CB821805A8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests25.subtitle}"
+			tasks: [
+				{
+					id: "6EAF9118DB909B9B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:pattern_provider"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests25.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "650692A96EB45059"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests25.title}"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["130A80D8B3E4EA98"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests26.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests26.description2}"
+			]
+			icon: "ae2:blank_pattern"
+			id: "2F40B3F9E34F9B1F"
+			rewards: [
+				{
+					count: 8
+					id: "3C2943670D403D83"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "4DCC858860C9DDFC"
+					type: "random"
+				}
+				{
+					id: "5565EAA51803B8EA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "0B1C8C1378DCAB48"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "478737EE26009214"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests26.title}"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2F40B3F9E34F9B1F"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests27.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests27.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests27.description4}"
+			]
+			id: "2506598B0A22BE75"
+			rewards: [
+				{
+					id: "71AA3C6BEAD58098"
+					type: "random"
+				}
+				{
+					id: "0BFF789D33A6827D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "363E4E4E524166C1"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2506598B0A22BE75"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests28.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests28.description2}"
+			]
+			id: "32728BD9BD6384F3"
+			rewards: [
+				{
+					id: "25A4F7EAD7AE5210"
+					type: "random"
+				}
+				{
+					id: "52D38D36F1DB8385"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "73AEA8F17B7E7B55"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["130A80D8B3E4EA98"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests29.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests29.description2}"
+			]
+			id: "4BEC405C5EC58218"
+			rewards: [
+				{
+					id: "0B40A9A56D9C41F2"
+					type: "random"
+				}
+				{
+					id: "4B174EAFF5992B6C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "6B6D6798DCE5210A"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4BEC405C5EC58218"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests30.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests30.description2}"
+			]
+			id: "16BF82CCB4624E9C"
+			rewards: [
+				{
+					id: "63DE69E6B0EE669C"
+					type: "random"
+				}
+				{
+					id: "0F2D07D4525CDAC0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3DA899219652C57C"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					id: "4919D3FD87685BDE"
+					item: "ae2:toggle_bus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests30.title}"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["16BF82CCB4624E9C"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests31.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests31.description2}"
+			]
+			id: "2393A0DC1A59CDEC"
+			rewards: [
+				{
+					id: "17FC4D7C4815047E"
+					type: "random"
+				}
+				{
+					id: "69F29D55A5BC25F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests31.subtitle}"
+			tasks: [
+				{
+					id: "2249408CD4DC0409"
+					item: "ae2:crafting_card"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["130A80D8B3E4EA98"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests32.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests32.description2}"
+			]
+			id: "06252C87B61A19F3"
+			rewards: [
+				{
+					id: "41CAA8AC87508772"
+					type: "random"
+				}
+				{
+					id: "0DEA958ABF15E53D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests32.subtitle}"
+			tasks: [
+				{
+					id: "585856CE2186DE81"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(.*)crafting_storage"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests32.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["06252C87B61A19F3"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests33.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests33.description2}"
+			]
+			id: "15B4189EFAD4B6E2"
+			rewards: [
+				{
+					id: "3281C40E028E78EA"
+					type: "random"
+				}
+				{
+					id: "1382623AA6B83F68"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests33.subtitle}"
+			tasks: [
+				{
+					id: "4556BCEDA60FD43A"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(.*)crafting_accelerator"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests33.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["15B4189EFAD4B6E2"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests34.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests34.description2}"
+			]
+			id: "753831874D7C3BC8"
+			rewards: [
+				{
+					id: "6416325AF7B0472E"
+					type: "random"
+				}
+				{
+					id: "4D1085F582724465"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests34.subtitle}"
+			tasks: [
+				{
+					id: "5E8BAFC4CC8E2FC7"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "(ae2|mega)(.*)crafting_monitor"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests34.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["171DB69D600EBD90"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests35.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests35.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests35.description4}"
+			]
+			id: "35029D28522C7A28"
+			rewards: [
+				{
+					id: "003D70F9D55FF573"
+					type: "random"
+				}
+				{
+					id: "0A937827A7D082F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests35.subtitle}"
+			tasks: [
+				{
+					id: "677ABDA7C9E27E54"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests35.title}"
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["35029D28522C7A28"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests36.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests36.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests36.description4}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests36.description6}"
+			]
+			id: "607E3A4AEEA46A98"
+			rewards: [
+				{
+					id: "4F105EBB11BD11E4"
+					type: "random"
+				}
+				{
+					id: "040F5FFB1EAD9A07"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3E90E38196284547"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "714DADB6776DEE49"
+					item: {
+						Count: 1b
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests36.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests36.title}"
+			x: -6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["35029D28522C7A28"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests37.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests37.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests37.description4}"
+			]
+			id: "3E9FA4241DD2A49F"
+			rewards: [
+				{
+					id: "2627BDB12F604FDF"
+					type: "random"
+				}
+				{
+					id: "7DC51ED69913C088"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3DC2851D386057E8"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":fluid_storage_cell_"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests37.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests37.title}"
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["35029D28522C7A28"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests38.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests38.description2}"
+			]
+			id: "2C7EE6C411E3CF59"
+			rewards: [
+				{
+					id: "79D7BB9A0A165183"
+					type: "random"
+				}
+				{
+					id: "51ED1467CFF7D04F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "356C92DD277FF662"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":portable_(.*)_cell_"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests38.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests39.description}"]
+			hide: false
+			id: "630BDF564F7516D7"
+			rewards: [
+				{
+					id: "340D6787C4FF4B31"
+					type: "random"
+				}
+				{
+					id: "5B71BDE86148D950"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "1745A275869656CD"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "4088FD924190889A"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["630BDF564F7516D7"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests40.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests40.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests40.description4}"
+			]
+			id: "5A27BA1E5C692EB1"
+			rewards: [
+				{
+					id: "2E55CFD6F5B04BF2"
+					type: "random"
+				}
+				{
+					id: "41854F9E0ED9381F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests40.subtitle}"
+			tasks: [
+				{
+					id: "7E96C873B5618844"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "559ED20BD9A9E7D7"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests41.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests41.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests41.description4}"
+			]
+			id: "64A2A85357384A51"
+			rewards: [
+				{
+					id: "17EB176D4DE83BFC"
+					type: "random"
+				}
+				{
+					id: "7EF455A6A19383C1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "450B49CBEE3B9967"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests41.title}"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["64A2A85357384A51"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests42.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests42.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests42.description4}"
+			]
+			id: "5D03D736B9E76E16"
+			rewards: [
+				{
+					id: "63496609E6023BC7"
+					type: "random"
+				}
+				{
+					id: "08F97A7874C04ABC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "611993D53E1538E9"
+					item: "ae2:spatial_pylon"
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests42.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests42.title}"
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D03D736B9E76E16"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests43.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests43.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests43.description4}"
+			]
+			id: "5236164BE64893D2"
+			rewards: [
+				{
+					id: "1ED05015AE0C6C64"
+					type: "random"
+				}
+				{
+					id: "59995B584EBF7645"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "657AA1244E52A5D5"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "ae2:spatial_storage_cell_"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests43.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D03D736B9E76E16"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests44.description}"]
+			id: "72426A0FB41CD542"
+			rewards: [
+				{
+					id: "0EA168B27527751C"
+					type: "random"
+				}
+				{
+					id: "6019DB785B925599"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3DE75F63A4057F3D"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests45.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests45.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests45.description4}"
+			]
+			icon: "ae2:interface"
+			id: "109FBFA37FF99341"
+			rewards: [
+				{
+					id: "2B83F7973D013783"
+					type: "random"
+				}
+				{
+					id: "410D9D60A5C7C2A2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests45.subtitle}"
+			tasks: [
+				{
+					id: "0B18DCF021EC9073"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:interface"
+						}
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests45.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests45.title}"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["109FBFA37FF99341"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests46.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests46.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests46.description4}"
+			]
+			id: "089899282C7F87E4"
+			rewards: [
+				{
+					id: "29E5B3FC2950EB08"
+					type: "random"
+				}
+				{
+					id: "71E073B62735529F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests46.subtitle}"
+			tasks: [
+				{
+					id: "476E409D90EB00C5"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests46.title}"
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["109FBFA37FF99341"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests47.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests47.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests47.description4}"
+			]
+			id: "334AF33B87A48816"
+			rewards: [
+				{
+					id: "66478A44B62A4264"
+					type: "random"
+				}
+				{
+					id: "6511B3E7B634CD50"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests47.subtitle}"
+			tasks: [
+				{
+					id: "208221CDB756CA4B"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests47.title}"
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["334AF33B87A48816"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests48.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests48.description2}"
+			]
+			id: "4B3E500121857046"
+			rewards: [
+				{
+					id: "4813FA25A7ACFCD7"
+					type: "random"
+				}
+				{
+					id: "4FA1462703F2ED35"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					id: "25CF2279A5441A33"
+					item: {
+						Count: 1b
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					title: "{ftbquests.chapter.chapter_x_applied_energetics.quests48.tasks0.title}"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3026C7FFA3B230FA"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests49.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests49.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests49.description4}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests49.description6}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests49.description8}"
+			]
+			id: "43E5907E27844D18"
+			rewards: [
+				{
+					id: "1843AF53CF453F34"
+					type: "random"
+				}
+				{
+					id: "56D940B894AC8F62"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests49.subtitle}"
+			tasks: [
+				{
+					id: "393B5909E4888AA4"
+					item: "ae2:charged_staff"
+					type: "item"
+				}
+				{
+					id: "724022F114A70F36"
+					item: "ae2:entropy_manipulator"
+					type: "item"
+				}
+				{
+					id: "3B955CD45F3262E1"
+					item: {
+						Count: 1b
+						id: "ae2:matter_cannon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests49.title}"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["109FBFA37FF99341"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests50.description}"]
+			id: "725685829EF53BA4"
+			rewards: [
+				{
+					id: "04675A556531A60A"
+					type: "random"
+				}
+				{
+					id: "4EE94FDE25FA98C9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests50.subtitle}"
+			tasks: [
+				{
+					id: "4D63710BA4C15D8F"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["725685829EF53BA4"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests51.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests51.description2}"
+			]
+			id: "6FBCDEA419DB1D37"
+			rewards: [
+				{
+					id: "669461C568A5B604"
+					type: "random"
+				}
+				{
+					id: "5DB24A23808461E6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests51.subtitle}"
+			tasks: [
+				{
+					id: "3A3E8B5C229510EF"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["109FBFA37FF99341"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests52.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests52.description2}"
+			]
+			id: "323963AAF0375942"
+			rewards: [
+				{
+					id: "7A9EACBC90969464"
+					type: "random"
+				}
+				{
+					id: "4F78BD9D22FB755E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests52.subtitle}"
+			tasks: [
+				{
+					id: "73D7CBA681E498CF"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["323963AAF0375942"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests53.description}"]
+			id: "4ACC788E6E79B711"
+			rewards: [
+				{
+					id: "0C3D77B18F45669D"
+					type: "random"
+				}
+				{
+					id: "655D31C539B32295"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5547ECC8C14E20A9"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["323963AAF0375942"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests54.description}"]
+			id: "4EA88BEBCCF09C54"
+			rewards: [
+				{
+					id: "4F2DFAF4E81CEB5B"
+					type: "random"
+				}
+				{
+					id: "6093C9A8F4EECBF4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests54.subtitle}"
+			tasks: [
+				{
+					id: "0BAA444349326DB2"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "1FC623F70A36ABCA"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_x_applied_energetics.quests54.title}"
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["109FBFA37FF99341"]
+			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests55.description}"]
+			id: "35FDE052B50EFAAF"
+			rewards: [
+				{
+					id: "206C411CE555BE7C"
+					type: "random"
+				}
+				{
+					id: "2EB798AA1DA6C5C3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests55.subtitle}"
+			tasks: [
+				{
+					id: "36A17738A12B4633"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["35FDE052B50EFAAF"]
+			description: [
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests56.description0}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests56.description2}"
+				""
+				"{ftbquests.chapter.chapter_x_applied_energetics.quests56.description4}"
+			]
+			id: "3D4ED245E498E765"
+			rewards: [
+				{
+					id: "42AF1EBEA96BF8EB"
+					type: "random"
+				}
+				{
+					id: "4D7A8138B5CB050A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests56.subtitle}"
+			tasks: [
+				{
+					id: "5DA6B4FC9F5ECB33"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 10.0d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_x_applied_energetics.title}"
+}

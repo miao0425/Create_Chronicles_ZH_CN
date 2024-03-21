@@ -1,0 +1,511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iv_the_locomotive_machine"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "kubejs:obsidian_machine"
+		tag: {
+			Enchantments: [
+				{ }
+			]
+		}
+	}
+	id: "0AF8EE64D6B4516C"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 3.0d
+			y: -20.5d
+		}
+	]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["46C6D675E116C997"]
+			id: "31055C6D28A45113"
+			tasks: [
+				{
+					id: "27AB083F26DF84B3"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["174567332B8DE8C1"]
+			id: "46C6D675E116C997"
+			tasks: [
+				{
+					id: "475DEBC8DA7BD31A"
+					item: "create:powdered_obsidian"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "174567332B8DE8C1"
+			tasks: [
+				{
+					id: "392FC7AAF3ACCF9F"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5C00CCFC83CCE7A4"
+				"784EF4A65242E3FD"
+				"1325CB313B08AB70"
+				"4B91CC0919FE9219"
+			]
+			dependency_requirement: "one_completed"
+			id: "254636A47FC0F2FC"
+			tasks: [
+				{
+					id: "3070A5BE48E5E14D"
+					item: "tfmg:liquid_concrete_bucket"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1325CB313B08AB70"
+			tasks: [
+				{
+					id: "1456DD2C10D0A955"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "784EF4A65242E3FD"
+			tasks: [
+				{
+					id: "1C3D1D3FCF46A210"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "5C00CCFC83CCE7A4"
+			tasks: [
+				{
+					id: "274695EAFEFA7242"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"2B1038EE6D366111"
+				"4B78BB8B294461A9"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B91CC0919FE9219"
+			tasks: [
+				{
+					id: "7AA90DC761775BFD"
+					item: "tfmg:cement"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["08B00F4FFF4BA13F"]
+			id: "2B1038EE6D366111"
+			tasks: [
+				{
+					id: "538CD736FF8B66F7"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			dependency_requirement: "one_started"
+			hide: true
+			hide_dependency_lines: true
+			id: "4B78BB8B294461A9"
+			tasks: [
+				{
+					id: "3948FE8F632A21BB"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4D774B40DB2BEA38"
+			optional: true
+			tasks: [
+				{
+					id: "0EB79B5A265FBBA4"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"4D774B40DB2BEA38"
+				"42CFF547BDAB44B1"
+			]
+			dependency_requirement: "one_completed"
+			id: "08B00F4FFF4BA13F"
+			optional: true
+			tasks: [
+				{
+					id: "17494EABC0E0ED8B"
+					item: "create:limestone"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "07EE6AFA3FE693E1"
+			tasks: [
+				{
+					id: "3BCDEB4A718D3EF2"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E62A3B6C3E0EF8B"]
+			description: [
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description0}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description2}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description4}"
+			]
+			id: "1360D8CD2949E41B"
+			tasks: [
+				{
+					id: "3E70EED36DDFF8EF"
+					item: "hostilenetworks:loot_fabricator"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"6B0D61030092824D"
+				"58DD96B724C875FE"
+				"0AF71B3EB3531CAC"
+			]
+			description: [
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description0}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description2}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description4}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description6}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description8}"
+			]
+			id: "6E62A3B6C3E0EF8B"
+			tasks: [
+				{
+					id: "5E181D8952DDF478"
+					item: "hostilenetworks:sim_chamber"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["49A0E7E6B5C3DB65"]
+			description: [
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description0}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description2}"
+				""
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description5}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description7}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description9}"
+			]
+			id: "6B0D61030092824D"
+			tasks: [
+				{
+					id: "56731712C3EC0870"
+					item: "hostilenetworks:blank_data_model"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5E60FF6098CB030B"
+				"3DFF1B74E8AADB57"
+			]
+			description: [""]
+			hide: true
+			id: "143E325CFBC9FAC9"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "300EC4A1F3FFEC13"
+					item: "kubejs:obsidian_machine"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.75d
+		}
+		{
+			dependencies: [
+				"2EF91E1C99625A46"
+				"07EE6AFA3FE693E1"
+				"31055C6D28A45113"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			id: "3DFF1B74E8AADB57"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0902CB56133DA394"
+					item: "kubejs:locomotive_mechanism"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53A0772D1388314C"]
+			id: "2EF91E1C99625A46"
+			tasks: [
+				{
+					id: "7D53BF11AFCB88D7"
+					item: "alexscaves:metal_rebar"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D4534E5FEBE0716"]
+			id: "53A0772D1388314C"
+			tasks: [
+				{
+					id: "53733C42A5BCDD42"
+					item: "alexscaves:scrap_metal"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E509C44D3A6E49E"]
+			id: "4D4534E5FEBE0716"
+			tasks: [
+				{
+					id: "00B9F2140FA31170"
+					item: "alexscaves:metal_swarf"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1360D8CD2949E41B"]
+			description: [
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests21.description0}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests21.description2}"
+			]
+			id: "6E509C44D3A6E49E"
+			tasks: [
+				{
+					id: "73B98B126E5C8B08"
+					item: "alexscaves:ferrouslime_ball"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "42CFF547BDAB44B1"
+			optional: true
+			tasks: [
+				{
+					id: "641350D980FCA0F9"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0FA7629CCE64385C"
+			tasks: [
+				{
+					id: "317DED90EB4BE944"
+					item: "tfmg:formwork_block"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"254636A47FC0F2FC"
+				"0FA7629CCE64385C"
+			]
+			description: ["{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests24.description}"]
+			id: "49A0E7E6B5C3DB65"
+			tasks: [
+				{
+					id: "6DF77E7EDAD9CD77"
+					item: "tfmg:concrete"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			hide: true
+			hide_dependency_lines: true
+			id: "58DD96B724C875FE"
+			tasks: [
+				{
+					id: "6AD585B377F63905"
+					item: "hostilenetworks:prediction_matrix"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6F2EA0844769A10A"]
+			description: [
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests26.description0}"
+				""
+				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests26.description2}"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "0AF71B3EB3531CAC"
+			tasks: [
+				{
+					id: "7BDD94C5B583CCFD"
+					item: "hostilenetworks:deep_learner"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3DFF1B74E8AADB57"]
+			hide: true
+			id: "33274B5D531EF9B7"
+			tasks: [
+				{
+					id: "03924F210618B3C4"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+				{
+					id: "5DA3A05BDAEAAC05"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_iv_the_locomotive_machine.title}"
+}

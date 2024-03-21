@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vi_rocket_fuel"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "ad_astra:fuel_bucket"
+		tag: {
+			Enchantments: [
+				{ }
+			]
+		}
+	}
+	id: "6754C36555B56724"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 1.5d
+			y: -6.5d
+		}
+	]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["69D628450626D8D5"]
+			description: [
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description0}"
+				""
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description2}"
+				""
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description4}"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "333CCE71E8979C07"
+			rewards: [
+				{
+					count: 10
+					id: "126AD692D41FF283"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					id: "456FDF42194B3C40"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "23053778A07D231F"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F170CD9F195E01C"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "66B4AD02808647BB"
+					item: "tfmg:surface_scanner"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests0.title}"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["333CCE71E8979C07"]
+			description: [
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description0}"
+				""
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description2}"
+				""
+				"{ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description4}"
+			]
+			id: "683EC98909A058CD"
+			rewards: [
+				{
+					count: 16
+					id: "671F16B14124E4A9"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6EB3E999CEB73444"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests1.subtitle}"
+			tasks: [
+				{
+					id: "3D5E53441035CFC9"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6BBFCDEDC5911220"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "78EE4E9525A0E83D"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "029D76FC595F4A29"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "17F842B1E61FED37"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0ECB6106A595A346"
+					item: "tfmg:steel_truss"
+					type: "item"
+				}
+				{
+					id: "657E59C3F1534206"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests1.title}"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["683EC98909A058CD"]
+			description: ["{ftbquests.chapter.chapter_vi_rocket_fuel.quests2.description}"]
+			id: "615126E9C29AA0F1"
+			rewards: [
+				{
+					id: "0B76E13A3B4F13CF"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "04B238973221C1D9"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests2.subtitle}"
+			tasks: [
+				{
+					id: "7275F497E340C67C"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					id: "61A831A1377B3BE1"
+					item: "tfmg:steel_truss"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "236A32C3012FE5C2"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "251191B35BF19D9D"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4E9FE7F0E2DF1C04"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests2.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			id: "20218B68C748F8E8"
+			optional: true
+			tasks: [
+				{
+					id: "7BD17D0BCD140D64"
+					item: "tfmg:heavy_oil_bucket"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			id: "17695F39F46DA92C"
+			tasks: [
+				{
+					id: "0A7CCD23557DCD8A"
+					item: "tfmg:kerosene_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			id: "1EA7C3F726EAC443"
+			optional: true
+			tasks: [
+				{
+					id: "5A5D69EEEF2A22C7"
+					item: "tfmg:naphtha_bucket"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			id: "2A662FA99B21BFB3"
+			optional: true
+			tasks: [
+				{
+					id: "7B87AAD96375ADE9"
+					item: "tfmg:gasoline_bucket"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20218B68C748F8E8"]
+			id: "026770210A6EBDB4"
+			tasks: [
+				{
+					id: "3EBDEFC3A78D07D3"
+					item: "tfmg:lubrication_oil_bucket"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["615126E9C29AA0F1"]
+			id: "0387186A7791A953"
+			tasks: [
+				{
+					id: "035B048FB162B702"
+					item: "tfmg:diesel_bucket"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20218B68C748F8E8"]
+			id: "4DA9294ABB244D04"
+			tasks: [
+				{
+					id: "33056D37E3332D97"
+					item: "tfmg:sulfur_dust"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20218B68C748F8E8"]
+			id: "077DDA2EE4C3603D"
+			tasks: [
+				{
+					id: "2EAC1FE49BDCFDDE"
+					item: "tfmg:bitumen"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A662FA99B21BFB3"]
+			id: "2679F3B882A0DAB5"
+			tasks: [
+				{
+					id: "5CA35B08063D28CE"
+					item: "tfmg:napalm_bucket"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1EA7C3F726EAC443"]
+			id: "1E6D5B2997075953"
+			tasks: [
+				{
+					id: "2784C6636B6CEBDB"
+					item: "tfmg:liquid_plastic_bucket"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E6D5B2997075953"]
+			id: "660362D67075EA49"
+			tasks: [
+				{
+					id: "61200E449FACE8CC"
+					item: "tfmg:plastic_sheet"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69D628450626D8D5"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4AF468B735AE6B79"
+			tasks: [
+				{
+					id: "77A4C1280F58ACFC"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"17695F39F46DA92C"
+				"0387186A7791A953"
+				"4AF468B735AE6B79"
+			]
+			id: "7EEB0092E87627F1"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.chapter_vi_rocket_fuel.quests15.subtitle}"
+			tasks: [
+				{
+					id: "58A9A0AFD66E7527"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_vi_rocket_fuel.title}"
+}

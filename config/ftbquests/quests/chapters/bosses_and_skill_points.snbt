@@ -1,0 +1,2187 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "bosses_and_skill_points"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:skill_add_point"
+	id: "16389783F38DFDED"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 11.5d
+			hover: [ ]
+			image: "forbidden_arcanus:block/arcane_polished_darkstone"
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "createdeco:block/palettes/decals/decal_skull"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 9.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests0.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests0.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests0.description4}"
+			]
+			icon: "cataclysm:desert_eye"
+			id: "07C2D6E01B241F73"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "50DF8030A3412975"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests0.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests0.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "312D9F500E45CDCC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests0.title}"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests1.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests1.description2}"
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "681E9EE350CD6791"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "03E940FAAD38134C"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests1.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests1.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					id: "1C2969AF75334559"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests1.title}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests2.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests2.description2}"
+			]
+			icon: "cataclysm:void_eye"
+			id: "6AC1E375CA7DA676"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7CA935B0479A4539"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests2.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests2.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "35A1226A30729B1F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests2.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests3.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests3.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests3.description4}"
+			]
+			icon: "cataclysm:flame_eye"
+			id: "40DD304B90046084"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "637499C1EF6D799F"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests3.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests3.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "20A6B8D66C22E1BC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests3.title}"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests4.description}"]
+			id: "09D25A60964E517F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "42E586511F8FACBA"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests4.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests4.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:monstrous_eye"
+					id: "52C683CAAB2FCA7C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests4.title}"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests5.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests5.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests5.description4}"
+			]
+			icon: "cataclysm:mech_eye"
+			id: "1A9BD3105BC4C13B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "574B0E49AD93B0FB"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests5.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests5.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "0253F7F29DE5086C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests5.title}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests6.description}"]
+			icon: "alexsmobs:void_worm_eye"
+			id: "7696990D3ED40A1B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "77C13FB102857BB9"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests6.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests6.subtitle}"
+			tasks: [
+				{
+					entity: "alexsmobs:void_worm_part"
+					id: "56332C3B671B9F70"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests6.title}"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests7.description}"]
+			id: "150D9233D297B9DA"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6FC75D49789DE246"
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests7.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests7.subtitle}"
+			tasks: [
+				{
+					entity: "alexsmobs:warped_mosco"
+					icon: "alexsmobs:spawn_egg_warped_mosco"
+					id: "5968A07BF617433F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests7.title}"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests8.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests8.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests8.description4}"
+			]
+			id: "065A5A976F0D8FF9"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "084B87957DA020A9"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests8.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests8.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:obsidilith"
+					icon: "bosses_of_mass_destruction:obsidian_heart"
+					id: "4866CA5F8D193556"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests8.title}"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests9.description}"]
+			id: "342B9E3297CC4309"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "2A63F9AFE1D90235"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests9.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests9.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					icon: "bosses_of_mass_destruction:void_lily"
+					id: "1F551A91288A58FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests9.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests10.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests10.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests10.description4}"
+			]
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "2BA58FB09C99F20A"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "01C2773FBDC2293E"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests10.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests10.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					icon: "bosses_of_mass_destruction:ancient_anima"
+					id: "337D311B36FB706A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 4L
+					id: "4B489509AB71074B"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests10.title}"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests11.description}"]
+			id: "35E095FC517735B1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "07F3C40E1FE39405"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests11.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests11.subtitle}"
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:gauntlet"
+					icon: "bosses_of_mass_destruction:blazing_eye"
+					id: "7B71BA96352D74BF"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests11.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests12.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests12.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests12.description4}"
+			]
+			icon: "minecraft:nether_star"
+			id: "1D335FA02D1F86DD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "262CB855D17DBC7E"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests12.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests12.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "2D907589532D85C9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests12.title}"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests13.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests13.description2}"
+			]
+			icon: {
+				Count: 1b
+				id: "deeperdarker:warden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "079641D681493C48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "69675DA31FC03D1F"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests13.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests13.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "0DCD8A33E321FA0F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests13.title}"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "4B8AA887F0B4664E"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1EE4CE7588BA7EFB"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests14.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests14.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:cyclops"
+					icon: {
+						Count: 1b
+						id: "iceandfire:cyclops_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "087E8458D72A533B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests14.title}"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests15.description}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:hydra_fang"
+			id: "23EF18C11A9B1FBD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4638C13CFDF8399A"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests15.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests15.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:hydra"
+					icon: "iceandfire:hydra_fang"
+					id: "456A25567235C6A9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests15.title}"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests16.description}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: "iceandfire:sea_serpent_fang"
+			id: "1AB94A49F0A4427D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7ADAC30E2731B667"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests16.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests16.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:sea_serpent"
+					icon: "iceandfire:sea_serpent_fang"
+					id: "39A127619B88417C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests16.title}"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests17.description}"]
+			icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+			id: "03A47AAF2D751796"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "46598E458AAF4C7A"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests17.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests17.subtitle}"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+					icon: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+					id: "6F37C2762D88AFA2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests17.title}"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests18.description}"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_lightning_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "496E8E6570D6FE17"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5D6B89B090FFEC34"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests18.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests18.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "73E1E3F465E1915A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests18.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests19.description}"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_ice_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "485FA783FD36FB50"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19F37DE102460CFA"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests19.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests19.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "1C57AF3602B65340"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests19.title}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests20.description}"]
+			icon: {
+				Count: 1b
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "608ECD63B1EAC46B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "704D2BDFDE77D350"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests20.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests20.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "00828F2360910CF8"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests20.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1b
+				id: "iceandfire:myrmex_desert_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "271202F67BEA0A20"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D8295649714F002"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests21.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests21.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:myrmex_queen"
+					id: "68D8EC4BF1BBB2DD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests21.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description0}"
+				""
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description3}"
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description4}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description6}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description8}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description10}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description12}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description14}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests22.description16}"
+			]
+			icon: "graveyard:white_bone_staff"
+			id: "2EFEFB8A1B1A2E3F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "22668824FB494143"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests22.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests22.subtitle}"
+			tasks: [
+				{
+					entity: "graveyard:lich"
+					icon: "graveyard:red_bone_staff"
+					id: "516289600229A0D9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests22.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests23.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests23.description2}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests23.description4}"
+			]
+			icon: "born_in_chaos_v1:fel_lamp"
+			id: "02E628FD58B3D4C7"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "00E081CC230B46DD"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests23.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests23.subtitle}"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:pumpkinhead"
+					icon: "born_in_chaos_v1:fel_lamp"
+					id: "52E375BB9FB07AF5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests23.title}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests24.description}"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "cataclysm:ender_golem"
+					}
+				}
+			}
+			id: "376DD4B56039898B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6984CC523C61BCB1"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests24.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests24.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					icon: {
+						Count: 1b
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "cataclysm:ender_golem"
+							}
+						}
+					}
+					id: "3A353CC73BA204C3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests24.title}"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests25.description}"]
+			icon: "cataclysm:the_prowler_spawn_egg"
+			id: "186D1014F748B001"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6322B9827A2BF329"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests25.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests25.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					id: "5058F5131FFDC6DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests25.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests26.description}"]
+			icon: "cataclysm:amethyst_crab_spawn_egg"
+			id: "188968771B831DCE"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "32768E131EE7A65A"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests26.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests26.subtitle}"
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					id: "7ACEBCB47E3AD999"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests26.title}"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests27.description}"]
+			icon: "alexscaves:forsaken_idol"
+			id: "11DB96D8FC52617B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "7F6D245ED3B792DE"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests27.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests27.subtitle}"
+			tasks: [
+				{
+					entity: "alexscaves:forsaken"
+					icon: "alexscaves:forsaken_idol"
+					id: "7680DB76B6492D9D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests27.title}"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests28.description}"]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "alexscaves:hullbreaker"
+					}
+				}
+			}
+			id: "0346F78CE4B0F393"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "724FEB568BBCB2D5"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests28.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests28.subtitle}"
+			tasks: [
+				{
+					entity: "alexscaves:hullbreaker"
+					icon: {
+						Count: 1b
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "alexscaves:hullbreaker"
+							}
+						}
+					}
+					id: "29A9EF820B958D7F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests28.title}"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests29.description}"]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "138E94B1FC310502"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "48AE090E327ABC7F"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests29.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests29.subtitle}"
+			tasks: [
+				{
+					entity: "alexscaves:tremorzilla"
+					icon: "alexscaves:tremorzilla_egg"
+					id: "6BD72F4850C2B8AC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests29.title}"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests30.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests30.description2}"
+			]
+			icon: "alexscaves:ominous_catalyst"
+			id: "5E8607FE394E659A"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "002FE13B8FD7B103"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests30.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests30.subtitle}"
+			tasks: [
+				{
+					entity: "alexscaves:luxtructosaurus"
+					icon: "alexscaves:ominous_catalyst"
+					id: "44A104FF6801AC8F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests30.title}"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:dragon_head"
+			id: "4FCD7C734E04EC59"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "378815EDAB66FE96"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests31.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests31.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:dragon_egg"
+					icon: "minecraft:dragon_head"
+					id: "01631A62DF9E28CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests31.title}"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "66C5F17F1D24B252"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4A6EC55ED17B234E"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests32.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests32.subtitle}"
+			tasks: [
+				{
+					entity: "deeperdarker:stalker"
+					icon: "deeperdarker:stalker_spawn_egg"
+					id: "1AF6D6CD931AC4FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests32.title}"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+			id: "1447D924C3077D48"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "19507BFF9635CD09"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests33.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests33.subtitle}"
+			tasks: [
+				{
+					entity: "realmrpg_demons:ancient_demon_lord"
+					icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+					id: "187692AE730D8462"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests33.title}"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:creeper_head"
+			id: "5590F8A33E7C7EBA"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "11785BB87317FFD8"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests34.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests34.subtitle}"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_creeper"
+					icon: "minecraft:creeper_head"
+					id: "3AAF2A659E06F390"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests34.title}"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "supplementaries:enderman_head"
+			id: "0FA6D29FC55F9AEC"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3D7501C5BA1A2652"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests35.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests35.subtitle}"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_enderman"
+					icon: "supplementaries:enderman_head"
+					id: "5A3BED717D4E35DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests35.title}"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:skeleton_skull"
+			id: "12540DE2AD46BD25"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4F2074C87E8E3440"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests36.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests36.subtitle}"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_skeleton"
+					icon: "minecraft:skeleton_skull"
+					id: "7815976CA6879562"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests36.title}"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "minecraft:zombie_head"
+			id: "466E95094802C572"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "3F86E43B3F80D722"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests37.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests37.subtitle}"
+			tasks: [
+				{
+					entity: "mutantmonsters:mutant_zombie"
+					icon: "minecraft:zombie_head"
+					id: "52948508C1427CED"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests37.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests38.description}"]
+			icon: "twilightforest:naga_trophy"
+			id: "1118D777AFDEABF1"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "261DD4AC3353A153"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests38.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests38.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					icon: "twilightforest:naga_trophy"
+					id: "78C777F75BACC65B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests38.title}"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests39.description}"]
+			icon: "twilightforest:lich_trophy"
+			id: "360D7D51B8827142"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "362C0272415F76D8"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests39.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests39.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					icon: "twilightforest:lich_trophy"
+					id: "566220709E69A5FD"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests39.title}"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests40.description}"]
+			id: "66CCB8E61772D9C5"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6DA4D456BA6CD79D"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests40.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests40.subtitle}"
+			tasks: [
+				{
+					entity: "iceandfire:hydra"
+					icon: "twilightforest:hydra_trophy"
+					id: "3E8FFAD088D562A2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests40.title}"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests41.description}"]
+			id: "6C426E483987130D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "18D5C48D92709FF7"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests41.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests41.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					icon: "twilightforest:ur_ghast_trophy"
+					id: "244B910EB39E5D6E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests41.title}"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests42.description}"]
+			id: "0561992D26000F6C"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "24D5883822C00526"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests42.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests42.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:snow_queen"
+					icon: "twilightforest:snow_queen_trophy"
+					id: "53E591049A94D8CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests42.title}"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:alchemy_scroll"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AD9D7336F8E4D96"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0A5A2011633F2016"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests43.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests43.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:alchemist"
+					icon: {
+						Count: 1b
+						id: "blue_skies:alchemy_scroll"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0BC48FB63912FA16"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests43.title}"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:summoner_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "45E828FAD2F4D3EC"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "0CF524004E0E9088"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests44.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests44.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:summoner"
+					icon: {
+						Count: 1b
+						id: "blue_skies:summoner_trophy"
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+					id: "35C492B05779FE17"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests44.title}"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "blue_skies:arachnarch_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "bronze"
+					}
+				}
+			}
+			id: "22230F5131F8FEFD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "34C86FF91B85C163"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests45.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests45.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:arachnarch"
+					icon: {
+						Count: 1b
+						id: "blue_skies:arachnarch_trophy"
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+					id: "005029D367CE51E6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests45.title}"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "blue_skies:starlit_leaves"
+			id: "4473A6FB1DD04B33"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "586AEB753D3783EA"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests46.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests46.subtitle}"
+			tasks: [
+				{
+					entity: "blue_skies:starlit_crusher"
+					icon: "blue_skies:starlit_leaves"
+					id: "31DD138C22CF79AB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests46.title}"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "1B579FA633476F4B"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6F16667A95F0722F"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests47.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests47.subtitle}"
+			tasks: [
+				{
+					id: "1F63201CB11C5269"
+					item: "aether:bronze_dungeon_key"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests47.title}"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "0990BE5505F823C2"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "52461B8E6869D388"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests48.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests48.subtitle}"
+			tasks: [
+				{
+					id: "4136D61E6EE248C3"
+					item: "aether:silver_dungeon_key"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests48.title}"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "70D8E200F5040BA9"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "5B29D59699E791F8"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests49.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests49.subtitle}"
+			tasks: [
+				{
+					id: "0E462753AA02FAEA"
+					item: "aether:gold_dungeon_key"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests49.title}"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			id: "7FE615B1AB39CFFA"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "24C7C537994F50C8"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests50.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests50.subtitle}"
+			tasks: [
+				{
+					id: "099E3A9375FD853E"
+					item: "lost_aether_content:platinum_key"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests50.title}"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "aquamirae:rune_of_the_storm"
+			id: "44DCD0A86F67612E"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4183F285584DF8D4"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests51.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests51.subtitle}"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: "aquamirae:rune_of_the_storm"
+					id: "7CCBCB6DC88FB248"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests51.title}"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "conjurer_illager:conjurer_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "468294C066683BE3"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "49B9533F17F164D3"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests52.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests52.subtitle}"
+			tasks: [
+				{
+					entity: "conjurer_illager:conjurer"
+					icon: {
+						Count: 1b
+						id: "conjurer_illager:conjurer_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7442AF368E78EFA1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests52.title}"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "3316608227ABBD2E"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1AD1DA989CCF391E"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests53.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests53.subtitle}"
+			tasks: [
+				{
+					id: "2B4BE55FF05CB23C"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests53.title}"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: "irons_spellbooks:blood_staff"
+			id: "034ADBF4EC3738DD"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "4D43FCE63A4CAFF4"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests54.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests54.subtitle}"
+			tasks: [
+				{
+					entity: "irons_spellbooks:dead_king"
+					icon: "irons_spellbooks:blood_staff"
+					id: "78FF425190DBCD30"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests54.title}"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [
+				"{ftbquests.chapter.bosses_and_skill_points.quests55.description0}"
+				""
+				"{ftbquests.chapter.bosses_and_skill_points.quests55.description2}"
+			]
+			icon: "minecraft:pumpkin"
+			id: "18951CEFEE6CDB8F"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "6EB15BC8D12B9F3F"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests55.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests55.subtitle}"
+			tasks: [
+				{
+					id: "00168A16EE93A334"
+					item: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Pumpkalibur\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests55.title}"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6C426E483987130D"
+				"09D25A60964E517F"
+				"2BA58FB09C99F20A"
+				"23EF18C11A9B1FBD"
+				"45E828FAD2F4D3EC"
+				"0FA6D29FC55F9AEC"
+				"138E94B1FC310502"
+				"3316608227ABBD2E"
+				"7FE615B1AB39CFFA"
+				"40DD304B90046084"
+				"466E95094802C572"
+				"18951CEFEE6CDB8F"
+				"360D7D51B8827142"
+				"66CCB8E61772D9C5"
+				"0561992D26000F6C"
+				"681E9EE350CD6791"
+				"1AB94A49F0A4427D"
+				"11DB96D8FC52617B"
+				"5E8607FE394E659A"
+				"1447D924C3077D48"
+				"271202F67BEA0A20"
+				"186D1014F748B001"
+				"188968771B831DCE"
+				"065A5A976F0D8FF9"
+				"485FA783FD36FB50"
+				"44DCD0A86F67612E"
+				"6AC1E375CA7DA676"
+				"1118D777AFDEABF1"
+				"079641D681493C48"
+				"468294C066683BE3"
+				"496E8E6570D6FE17"
+				"66C5F17F1D24B252"
+				"1D335FA02D1F86DD"
+				"2EFEFB8A1B1A2E3F"
+				"7696990D3ED40A1B"
+				"034ADBF4EC3738DD"
+				"12540DE2AD46BD25"
+				"35E095FC517735B1"
+				"342B9E3297CC4309"
+				"4FCD7C734E04EC59"
+				"03A47AAF2D751796"
+				"0346F78CE4B0F393"
+				"376DD4B56039898B"
+				"4473A6FB1DD04B33"
+				"608ECD63B1EAC46B"
+				"02E628FD58B3D4C7"
+				"5AD9D7336F8E4D96"
+				"150D9233D297B9DA"
+				"1A9BD3105BC4C13B"
+				"70D8E200F5040BA9"
+				"5590F8A33E7C7EBA"
+				"07C2D6E01B241F73"
+				"22230F5131F8FEFD"
+				"4B8AA887F0B4664E"
+				"1B579FA633476F4B"
+				"0990BE5505F823C2"
+			]
+			hide: false
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "lootr:textures/item/crown.png"
+				}
+			}
+			id: "025314CC80D7286F"
+			invisible: true
+			rewards: [
+				{
+					id: "45D461EBEE406919"
+					item: "kubejs:slayer_badge"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests56.subtitle}"
+			tasks: [
+				{
+					id: "763C98900C9BC722"
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests56.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["072DA448D144179C"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "obtrophies:trophy"
+				tag: {
+					BlockEntityTag: {
+						VariantID: 0
+						entity: "minecraft:elder_guardian"
+					}
+				}
+			}
+			id: "53359B066B0AC21D"
+			rewards: [
+				{
+					command: "/puffish_skills points add @s talentree 1"
+					elevate_perms: true
+					icon: "kubejs:skill_add_point"
+					id: "1F53B9CBF0EB0AF1"
+					silent: true
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests57.rewards0.title}"
+					type: "command"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests57.subtitle}"
+			tasks: [
+				{
+					entity: "minecraft:elder_guardian"
+					icon: {
+						Count: 1b
+						id: "obtrophies:trophy"
+						tag: {
+							BlockEntityTag: {
+								VariantID: 0
+								entity: "minecraft:guardian"
+							}
+						}
+					}
+					id: "4E504A5927E2DFE0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.bosses_and_skill_points.quests57.title}"
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "{ftbquests.chapter.bosses_and_skill_points.title}"
+}

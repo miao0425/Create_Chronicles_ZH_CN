@@ -1,0 +1,450 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vii_infernal_mechanism"
+	group: "5237AEA7260D740E"
+	icon: {
+		Count: 1b
+		id: "create_dd:infernal_mechanism"
+		tag: {
+			Enchantments: [
+				{ }
+			]
+		}
+	}
+	id: "20497405FCFCFADA"
+	images: [
+		{
+			alpha: 200
+			click: ""
+			color: 16672790
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "chalk:block/mark/arrow"
+			rotation: 180.0d
+			width: 1.2d
+			x: 9.0d
+			y: -10.0d
+		}
+	]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0CFFF58986CE7733"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests0.subtitle}"
+			tasks: [
+				{
+					id: "43AD25D516C4DC06"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0CFFF58986CE7733"]
+			id: "645E8388213F1284"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests1.subtitle}"
+			tasks: [
+				{
+					id: "48748B75597DC519"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests1.title}"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"645E8388213F1284"
+				"020E3DF3DAA4292F"
+				"25F677F8D587C451"
+				"0179452F07812322"
+			]
+			dependency_requirement: "one_completed"
+			id: "5690FCED46349207"
+			tasks: [
+				{
+					id: "6F136A019E348CD4"
+					item: "kubejs:mystic_coal_block"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"69E26E48222CEC01"
+				"0CD56ADF87F8799B"
+				"453F0E5926BA4AB1"
+			]
+			dependency_requirement: "one_completed"
+			id: "6C52531E3B0CCB60"
+			tasks: [
+				{
+					id: "6012EF5123327E81"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C52531E3B0CCB60"]
+			id: "1D9D2E1FF9BD8A91"
+			tasks: [
+				{
+					id: "20A855B3B2E0B5A7"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5690FCED46349207"]
+			id: "440BB8DB69B930F5"
+			tasks: [
+				{
+					id: "6DA15926138E55D1"
+					item: "kubejs:dormant_dust_mystic_coal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2D42E5A8299941E1"
+				"440BB8DB69B930F5"
+			]
+			id: "2D2E2028EBB92BF6"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests6.subtitle}"
+			tasks: [
+				{
+					id: "61ACAD180F4BF9F0"
+					item: "kubejs:mystic_coal_liquid_bucket"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D2E2028EBB92BF6"]
+			id: "466F43B18F0D1B7E"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests7.subtitle}"
+			tasks: [
+				{
+					id: "54052EC191B72E3C"
+					item: "kubejs:ingot_mystic_coal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["466F43B18F0D1B7E"]
+			id: "69E26E48222CEC01"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests8.subtitle}"
+			tasks: [
+				{
+					id: "0CA9848993BF29B0"
+					item: "kubejs:rod_mystic_coal"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "1A36CF8C1DF5DEC4"
+			tasks: [
+				{
+					id: "1B61CF2AEB5A536E"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0706D3B957259D7B"]
+			id: "020E3DF3DAA4292F"
+			tasks: [
+				{
+					id: "01A0949F876C011E"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0706D3B957259D7B"
+			tasks: [
+				{
+					id: "026F73EBCA345E92"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1A36CF8C1DF5DEC4"
+				"1D9D2E1FF9BD8A91"
+			]
+			dependency_requirement: "one_completed"
+			id: "738C37B1E696F933"
+			tasks: [
+				{
+					id: "2DDA923F80609B46"
+					item: "create_dd:ember_alloy"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["312D4E8EBE475538"]
+			id: "4706B7F09A2BFC25"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests13.subtitle}"
+			tasks: [
+				{
+					id: "3C659447C538B899"
+					item: "forbidden_arcanus:arcane_crystal_dust_speck"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4706B7F09A2BFC25"]
+			id: "25F677F8D587C451"
+			tasks: [
+				{
+					id: "15D5BFE6A644C840"
+					item: "forbidden_arcanus:arcane_crystal_dust"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "312D4E8EBE475538"
+			tasks: [
+				{
+					id: "38C4815C1D5E7A60"
+					item: "forbidden_arcanus:nipa"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"029C392AD3BA76AD"
+				"7E56F2B931A55A36"
+			]
+			dependency_requirement: "one_completed"
+			id: "0179452F07812322"
+			tasks: [
+				{
+					id: "3A3F8FDBFE26CEB3"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1084B343FEEBB88E"]
+			hide: true
+			id: "4D391FCA01F6D795"
+			tasks: [
+				{
+					id: "632939ADDADCC2A2"
+					item: "create_dd:industrial_fan"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["438AFB85E4605DF6"]
+			id: "67F1C2891AA7CD0E"
+			tasks: [
+				{
+					id: "138B877F4F400CB4"
+					item: "create_things_and_misc:crushed_magma"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7F5486A6318789B5"
+			tasks: [
+				{
+					id: "5525D9787719CB17"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2D42E5A8299941E1"
+			tasks: [
+				{
+					id: "1E3E6BF49B227CEF"
+					item: "tfmg:coal_coke_dust"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7F5486A6318789B5"
+				"67F1C2891AA7CD0E"
+				"738C37B1E696F933"
+			]
+			dependency_requirement: "one_completed"
+			hide_details_until_startable: false
+			id: "1084B343FEEBB88E"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2F9501B14DAF966D"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "438AFB85E4605DF6"
+			tasks: [
+				{
+					id: "73730D3EF2168510"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "029C392AD3BA76AD"
+			tasks: [
+				{
+					id: "221C56497902B8AA"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7E56F2B931A55A36"
+			tasks: [
+				{
+					id: "30138F8F0234319D"
+					item: "create_dd:diamond_shard"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "453F0E5926BA4AB1"
+			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests25.subtitle}"
+			tasks: [
+				{
+					id: "32DD7FA9050C4FD3"
+					item: "blue_skies:fiery_beans"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EEB0092E87627F1"]
+			hide: true
+			hide_dependency_lines: true
+			id: "0CD56ADF87F8799B"
+			tasks: [
+				{
+					id: "5EB7E246748365C2"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.chapter_vii_infernal_mechanism.title}"
+}

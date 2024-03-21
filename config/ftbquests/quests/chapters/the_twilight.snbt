@@ -1,0 +1,447 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight"
+	group: "13742BAAC673A80E"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "7DA89DB49AC553E1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests0.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests0.description2}"
+			]
+			hide: true
+			id: "2F0F635C06E8D307"
+			rewards: [
+				{
+					id: "5492E3E7C1F5AE23"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.7d
+			subtitle: "{ftbquests.chapter.the_twilight.quests0.subtitle}"
+			tasks: [
+				{
+					dimension: "twilightforest:twilight_forest"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					id: "7A472AD44FFA4EA7"
+					title: "{ftbquests.chapter.the_twilight.quests0.tasks0.title}"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests0.title}"
+			x: -2.25d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F0F635C06E8D307"]
+			description: ["{ftbquests.chapter.the_twilight.quests1.description}"]
+			id: "51EC1DBEAFF575D7"
+			rewards: [
+				{
+					id: "2C00EFF4D95465A8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests1.subtitle}"
+			tasks: [
+				{
+					id: "3FED0422AC07EF0B"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests1.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["51EC1DBEAFF575D7"]
+			description: ["{ftbquests.chapter.the_twilight.quests2.description}"]
+			id: "043A32CFAF07245A"
+			rewards: [
+				{
+					id: "48129AD4ABD679B4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests2.subtitle}"
+			tasks: [
+				{
+					id: "6C2D37E9E4AF0360"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests2.title}"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["043A32CFAF07245A"]
+			description: ["{ftbquests.chapter.the_twilight.quests3.description}"]
+			id: "65E6F43E380A343B"
+			rewards: [
+				{
+					id: "0105941E62BE1CA6"
+					item: {
+						Count: 1b
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests3.subtitle}"
+			tasks: [
+				{
+					id: "211FC2F8F944CA50"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests3.title}"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1125F566DAEFC4A5"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests4.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests4.description2}"
+			]
+			id: "249A0EC5DB167A5A"
+			rewards: [
+				{
+					count: 8
+					id: "6AA21A70291C56B5"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "13305A8AECBAE800"
+					item: "twilightforest:charm_of_keeping_1"
+					type: "item"
+				}
+				{
+					id: "3EEB8AED442F6C86"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests4.subtitle}"
+			tasks: [
+				{
+					id: "3A00D577D5E891A7"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests4.title}"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08864DB101FED90C"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests5.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests5.description2}"
+			]
+			id: "546A5B881F8F6A29"
+			rewards: [
+				{
+					id: "3173D23B515E0009"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					id: "763634AD2A1F1CD8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests5.subtitle}"
+			tasks: [
+				{
+					id: "25D5DA05EB9567EF"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests5.title}"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: ["{ftbquests.chapter.the_twilight.quests6.description}"]
+			id: "2471021B93EE125D"
+			rewards: [
+				{
+					id: "178C04B0EF68AFC5"
+					item: "twilightforest:charm_of_keeping_3"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests6.subtitle}"
+			tasks: [
+				{
+					entity: "twilightforest:alpha_yeti"
+					icon: "twilightforest:alpha_yeti_trophy"
+					id: "4F4B40F3E1AB8663"
+					title: "{ftbquests.chapter.the_twilight.quests6.tasks0.title}"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests6.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2471021B93EE125D"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests7.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests7.description2}"
+			]
+			id: "2C964425741DFA07"
+			rewards: [
+				{
+					count: 10
+					id: "1D44958D215809FB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "549F30A250309E05"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests7.subtitle}"
+			tasks: [
+				{
+					id: "160743408E4C463A"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests7.title}"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests8.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests8.description2}"
+			]
+			id: "1125F566DAEFC4A5"
+			rewards: [
+				{
+					id: "38F20D5365F9DD50"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests8.subtitle}"
+			tasks: [
+				{
+					id: "0B13F1C59D4C60A6"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests8.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65E6F43E380A343B"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests9.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests9.description2}"
+			]
+			id: "08864DB101FED90C"
+			rewards: [
+				{
+					id: "2B9F8C58FA8E4648"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "{ftbquests.chapter.the_twilight.quests9.subtitle}"
+			tasks: [
+				{
+					id: "26CF924E1688280A"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests9.title}"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"249A0EC5DB167A5A"
+				"546A5B881F8F6A29"
+				"2C964425741DFA07"
+			]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests10.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests10.description2}"
+			]
+			id: "254CFFAAF052399C"
+			rewards: [
+				{
+					id: "02162698D2E1046C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "7732BB4C69F3B042"
+					item: "twilightforest:magic_beans"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["254CFFAAF052399C"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests11.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests11.description2}"
+			]
+			id: "1BFB221E98E6B727"
+			rewards: [
+				{
+					id: "614E47B26F05E9FF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "31EFE17BE7FD947E"
+					item: {
+						Count: 1b
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049CDA4E97FDEA20"
+					item: {
+						Count: 1b
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests11.title}"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1BFB221E98E6B727"]
+			description: [
+				"{ftbquests.chapter.the_twilight.quests12.description0}"
+				""
+				"{ftbquests.chapter.the_twilight.quests12.description2}"
+			]
+			id: "6186282EA9E837D8"
+			rewards: [
+				{
+					id: "5A18BD24A1F4B566"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "281C6A9BEC1301F2"
+					item: {
+						Count: 1b
+						id: "twilightforest:lamp_of_cinders"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6186282EA9E837D8"]
+			description: ["{ftbquests.chapter.the_twilight.quests13.description}"]
+			id: "7CA4CDBFAA14FA9F"
+			rewards: [
+				{
+					id: "1E18D0AD656581CA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1218CB3BFC5A3648"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_thorns"
+					criterion: ""
+					id: "6EF6E4EBDFA4C012"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.the_twilight.quests13.title}"
+			x: 12.5d
+			y: -0.5d
+		}
+	]
+	title: "{ftbquests.chapter.the_twilight.title}"
+}

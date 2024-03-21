@@ -1,0 +1,550 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "13742BAAC673A80E"
+	icon: "minecraft:dragon_head"
+	id: "53FAA75157389DE5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "kubejs:textures/enderportal.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests0.description}"]
+			id: "1E4B9F8A3401B4BF"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "68EA32EFAEB5143B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests0.subtitle}"
+			tasks: [
+				{
+					id: "1A729831B2C6D804"
+					item: {
+						Count: 1b
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests1.description}"]
+			id: "37F39A63C0C2934F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "3F352686CC502342"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests1.subtitle}"
+			tasks: [
+				{
+					id: "3C6A1B486768BB94"
+					item: {
+						Count: 1b
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests2.description}"]
+			id: "02DE3FA28CBAE857"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "2100F0746434B10A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests2.subtitle}"
+			tasks: [
+				{
+					id: "1EBBF31125F4D187"
+					item: {
+						Count: 1b
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests3.description}"]
+			id: "3BC1492D43F6B120"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4B24AAF7E62764C4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests3.subtitle}"
+			tasks: [
+				{
+					id: "74DD9F7281936F2E"
+					item: {
+						Count: 1b
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests4.description}"]
+			id: "1F4AE081014800B4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "6ED622B2D318C1A7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests4.subtitle}"
+			tasks: [
+				{
+					id: "2EBD7434762970D0"
+					item: {
+						Count: 1b
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_end.quests4.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests5.description}"]
+			id: "22E0846B96BBD5DD"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "08896BAE21310E2D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests5.subtitle}"
+			tasks: [
+				{
+					id: "20C9F4D0C3D85835"
+					item: {
+						Count: 1b
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests6.description}"]
+			id: "50B4EEBAF5CF3122"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "4D9FA1892ACCDB42"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests6.subtitle}"
+			tasks: [
+				{
+					id: "6B27D02922CBE257"
+					item: {
+						Count: 1b
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests7.description}"]
+			id: "5EC521DA8FF06758"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "592FF0077C53B240"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests7.subtitle}"
+			tasks: [
+				{
+					id: "2560EE369A9298B7"
+					item: {
+						Count: 1b
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests8.description}"]
+			id: "0C61389C18B4A2B4"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "631C513B233BC412"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests8.subtitle}"
+			tasks: [
+				{
+					id: "0EED6B0CA7E5C945"
+					item: {
+						Count: 1b
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests9.description}"]
+			id: "763F1FB0C55F702F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "370DCBB20E4513E6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests9.subtitle}"
+			tasks: [
+				{
+					id: "0851A0649877E349"
+					item: {
+						Count: 1b
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests10.description}"]
+			id: "0A6EBBE5CD80EF14"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "21CFCB591AF1A6C0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests10.subtitle}"
+			tasks: [
+				{
+					id: "0C82B40849F15F55"
+					item: {
+						Count: 1b
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests11.description}"]
+			id: "33EF47DF16D412B5"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0884B0B40E117B0D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests11.subtitle}"
+			tasks: [
+				{
+					id: "287BB9E7276751F7"
+					item: {
+						Count: 1b
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests12.description}"]
+			id: "343AB719F81DFC63"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "7F0FCC7B96AE6A29"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests12.subtitle}"
+			tasks: [
+				{
+					id: "7DA4E17AB988FAD8"
+					item: {
+						Count: 1b
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests13.description}"]
+			id: "401C9B25D2B7B49F"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "1AA465D134BA7CD1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests13.subtitle}"
+			tasks: [
+				{
+					id: "20A121DA1AC34CD3"
+					item: {
+						Count: 1b
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests14.description}"]
+			id: "63A35C0C01372EB6"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "65FC57F9C96B29AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests14.subtitle}"
+			tasks: [
+				{
+					id: "4542CE1355D29B3B"
+					item: {
+						Count: 1b
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: ["{ftbquests.chapter.the_end.quests15.description}"]
+			id: "1C89D285F0501472"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "5E464F5F71FB4FEA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{ftbquests.chapter.the_end.quests15.subtitle}"
+			tasks: [
+				{
+					id: "6D134B2D3A3BE8AA"
+					item: {
+						Count: 1b
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["123D70CA4959F172"]
+			description: [
+				"{ftbquests.chapter.the_end.quests16.description0}"
+				""
+				"{ftbquests.chapter.the_end.quests16.description2}"
+				""
+				"{ftbquests.chapter.the_end.quests16.description4}"
+				""
+				"{ftbquests.chapter.the_end.quests16.description6}"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "5B9C1D10A217657D"
+			subtitle: "{ftbquests.chapter.the_end.quests16.subtitle}"
+			tasks: [
+				{
+					id: "650AD081A386407A"
+					title: "{ftbquests.chapter.the_end.quests16.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			title: "{ftbquests.chapter.the_end.quests16.title}"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B9C1D10A217657D"]
+			description: [
+				"{ftbquests.chapter.the_end.quests17.description0}"
+				""
+				"{ftbquests.chapter.the_end.quests17.description2}"
+				""
+				"{ftbquests.chapter.the_end.quests17.description4}"
+			]
+			hide_dependency_lines: true
+			id: "09C33BB3342632B4"
+			rewards: [
+				{
+					id: "3E80EBBA07E1F9CB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_end.quests17.subtitle}"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "276B6F50C52A8F96"
+					type: "dimension"
+				}
+			]
+			title: "{ftbquests.chapter.the_end.quests17.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter.the_end.title}"
+}
