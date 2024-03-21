@@ -1,0 +1,21 @@
+{
+	"ftbquests.chapter.deeper_and_darker.title": " &3The Otherside: &0Deeper and Darker[--&3异界:&0更深更深,更暗--]",
+	"ftbquests.chapter.deeper_and_darker.quests0.title": "&lBossfight:&r &3The Warden[--&lBossfight:&r &3守护者--]",
+	"ftbquests.chapter.deeper_and_darker.quests0.subtitle": "Found underground in the &aOverworld&r.[--在&a主世界&r下方发现.--]",
+	"ftbquests.chapter.deeper_and_darker.quests0.tasks0.title": "Kill a Warden[--杀死一名监守者--]",
+	"ftbquests.chapter.deeper_and_darker.quests1.title": "Craft a &9Warden Helmet[--制作一个&9卫兵头盔--]",
+	"ftbquests.chapter.deeper_and_darker.quests1.subtitle": "Used to negate the darkness in &8&lThe Otherside.[--用于在&8&l异界中消除黑暗。--]",
+	"ftbquests.chapter.deeper_and_darker.quests2.title": "&lEntering:&r &8&lThe Otherside[--&l进入:&r &8&l异界--]",
+	"ftbquests.chapter.deeper_and_darker.quests2.description": "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden.[--在照明传送门之前,你必须先从内部框架移除所有&3史古克树脂&r.在框架清除后,你可以用你早期杀死监守者后获得的&b深渊之心&r右键单击它.--]",
+	"ftbquests.chapter.deeper_and_darker.quests2.tasks0.title": "Enter The Otherside[--进入异界--]",
+	"ftbquests.chapter.deeper_and_darker.quests3.title": "Kill a &3Shattered[--杀死一个&3紫晶--]",
+	"ftbquests.chapter.deeper_and_darker.quests3.tasks0.title": "Kill a Shattered[--杀死一个破碎的--]",
+	"ftbquests.chapter.deeper_and_darker.quests4.title": "Kill a &3Stalker[--杀死一个&3尾行者--]",
+	"ftbquests.chapter.deeper_and_darker.quests4.subtitle": "Rare chance of spawning after breaking an &8Ancient Vase&r.[--破坏&8古代花瓶&r后生成几率.--]",
+	"ftbquests.chapter.deeper_and_darker.quests4.tasks0.title": "Kill a Stalker[--杀死一个尾行者--]",
+	"ftbquests.chapter.deeper_and_darker.quests5.title": "Kill a &7Shriek Worm[--杀死一个&7史莱克蠕虫--]",
+	"ftbquests.chapter.deeper_and_darker.quests5.subtitle": "Found by stepping on Infested Sculk[--踩在感染史古克上获得--]",
+	"ftbquests.chapter.deeper_and_darker.quests5.tasks0.title": "Kill a Shriek Worm[--杀死一只苦力怕虫--]",
+	"ftbquests.chapter.deeper_and_darker.quests6.title": "Find a &2Sculk Snapper[--找到一个&2骷髅捕捉者--]",
+	"ftbquests.chapter.deeper_and_darker.quests6.description": "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. [--可以用附魔&c下界合金胸甲&r驯服.驯服后,它们偶尔会掉落附魔书.--]"
+}

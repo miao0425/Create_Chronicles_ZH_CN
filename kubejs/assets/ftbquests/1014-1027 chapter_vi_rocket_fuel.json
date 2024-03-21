@@ -1,0 +1,16 @@
+{
+	"ftbquests.chapter.chapter_vi_rocket_fuel.title": "Chapter VI: Rocket Fuel[--VI:火箭燃料--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests0.title": "Finding the ore deposit[--找到矿石矿床--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description0": "The &6Surface Scanner&f shows how far away an oil source is with an approximate 8-block margin of error. [--&6海晶扫描仪&f显示一个石油源距离大约8个方块的错误范围.--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description2": "The oil source is found at the bedrock.[--石油来源在基岩上找到.--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests0.description4": "The &6surface scanner&f isn't very accurate, it’s recommended to do a search around the bedrock where the scanner pointed or to look in another location. Good luck[--&6地表扫描仪&f不十分精确,它建议围绕扫描仪指向的基岩进行搜索或在另一个地方查看.祝好运.--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests1.title": "Pumpjack[--泵子--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests1.subtitle": "Please use the ponder scene to refer on how to build[--请使用思索场景来参考如何建造--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description0": "Run an &3industrial pipe&f from the oil source at the bedrock to where you want to pump. Then place a &9pumpjack base&f on top the industrial pipe.[--从基岩的石油源中运行一个&3工业管道&f,到你想泵的地方。然后在工业管道顶部放置一个&9泵床&f.--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description2": "If the pumpjack doesn't work, make sure EVERYTHING is glued together. [--如果泵工不起作用,确保所有东西都粘在一起.--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests1.description4": "After the Oil Pump machine is built and running, you may extract the oil with a &cmechanical pump&f attached to the &9pumpjack base&f.[--在油泵机器建造和运行后,您可以用&9泵基座&f的&c动力泵&f提取油。--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests2.title": "Distilation[--分解--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests2.subtitle": "Please use the ponder scene to refer on how to build[--请使用思索场景来参考如何建造--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests2.description": "The next step is building the Distillation machine.[--下一阶段是建造蒸馏机。--]",
+	"ftbquests.chapter.chapter_vi_rocket_fuel.quests15.subtitle": "this will be the fuel you use on your rocket[--这将是你在火箭上使用的燃料--]"
+}

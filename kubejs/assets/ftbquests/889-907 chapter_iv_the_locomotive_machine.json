@@ -1,0 +1,21 @@
+{
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.title": "Chapter IV: The Locomotive Machine[--第四章:机车机器--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description0": "&9Mob Predictions &rwill need to be processed in a &2loot fabricator&r, a device which uses power to convert predictions to mob drops.[--&9怪物推测&r需要在&2豪布置器&r中处理,该设备使用电力将预言转化为生物掉落物.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description2": "The drops which are available are based on a list of pre-defined items, and a target can be selected for each type of model. [--可用的掉落物基于一个预定义的物品列表,可以为每种模型选择一个目标。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests13.description4": "&2The loot fabricator&r will remember your choices for each type, so you can feed multiple types of predictions into a single fabricator.[--&2战利品制造器&r会记住你对每种类型的选择,这样你就可以将多种预言喂给单个制造器.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description0": "Training a Data Model can be done in one of two ways, with a &4Deep Learner&r or with a &6Simulation Chamber&r. [--使用&4深度学习器&r或&6模拟室&r可以两种方式之一进行数据模型训练.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description2": "All models start out in the Faulty state, and must be trained up to Basic in the deep learner.[--所有模型都是从错误状态开始的,必须在深处学习者中接受基础训练。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description4": "Once your model is Basic or higher, you can use the simulation chamber to run simulations of your model. [--一旦你的模型是基础或更高的,你就可以使用模拟室来运行模型的模拟。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description6": "Simulations will always produce a generalized prediction, and may also produce a Mob Prediction, based on the accuracy of the model.[--模拟将始终产生一个通用的预测,并且根据模型的精准度也可以产生一个怪物预测。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests14.description8": "The higher tier of the model, the higher the accuracy, up to 99.5% at Self Aware. Running simulations requires energy (based on the model type) and a catalyst item, which is usually a &6Prediction Matrix&r.[--模型的等级越高,精准度就越高,自觉时达到99.5%。运行模拟需要能量(基于模型类型)和一个催化剂物品,通常是一个&6预设矩阵&r.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description0": "&2Hostile Neural Networks&r is a mod based on Deep Mob Learning.[--&2主心网络&r是一个基于深渊怪物学习的mod.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description2": "It allows you to train data models and run simulations, producing mob predictions, which can be used to generate mob loot.[--它允许你训练数据模型和运行模拟,产生生物预测,可用于生成生物战利品。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description5": "The fundamental unit of this mod is the &dData Model&r - an item which holds information about an entity that you can utilize to generate their drops. [--这个mod的基本单元是&d数据模型&r - 存储一个实体的信息,你可以使用它来产生掉落物.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description7": "To get a Data Model, you must first craft a &6Data Model Framework&r, and use it on the target entity to build the model. [--要获得数据模型,你必须先制作一个&6数据模型框架&r,然后在目标实体上使用它来建造模型.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests15.description9": "Once you have your model, you will have to train it.[--一旦你有了你的模型,你必须训练它。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests21.description0": "&0Ferrous Slime&r can be found in &9Magnetic Alex Caves&r.[--&0火灵史莱姆&r可以在&9磁力亚历克斯洞穴&r中找到.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests21.description2": "Once you get there you need collect a data model of Ferrous Slime and train it to Basic.[--一旦你到达那里,你需要收集铁史莱姆的数据模型并将其训练到基础。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests24.description": "Put the liquid concrete in a framework block and wait a few seconds till it forms a solid block of concetre. [--将液态混凝土放入框架方块中,再等几秒它就会变成一个坚固的沉浸方块。--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests26.description0": "&6The deep learner&r allows you to store a few data models within, and kills you receive will begin to train the model. [--&6深渊学习者&r允许你在内部存储一些数据模型,杀死你将开始训练模型.--]",
+	"ftbquests.chapter.chapter_iv_the_locomotive_machine.quests26.description2": "You can equip in curious or have in inventory it will work.[--你可以在奇点里装备,或者在物品栏里有它会工作.--]"
+}
