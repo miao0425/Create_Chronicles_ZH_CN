@@ -58,6 +58,21 @@ ItemEvents.tooltip(event => {
   event.add('kubejs:skill_reset',[
     Text.of('重置所有技能点').yellow()
   ])
+  event.add('kubejs:engineer_badge',[
+    Text.of('完成所有机械动力章节即可获得').yellow()
+  ])
+  event.add('kubejs:slayer_badge',[
+    Text.of('击败游戏中的所有 BOSS 后获得').yellow()
+  ])
+  event.add('kubejs:relic_badge',[
+    Text.of('收集所有饰品获得').yellow()
+  ])
+  event.add('kubejs:ascendant_badge',[
+    Text.of('收集所有戒指获得').yellow()
+  ])
+  event.add('kubejs:blade_badge',[
+    Text.of('收集简易刀剑中的所有宝剑后获得').yellow()
+  ])
 })
 
 JEIEvents.information(e => {
