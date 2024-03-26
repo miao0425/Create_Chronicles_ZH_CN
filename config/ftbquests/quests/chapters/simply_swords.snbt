@@ -98,7 +98,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests1.subtitle}"
 			tasks: [
 				{
 					id: "544C8E47301FBF06"
@@ -127,7 +126,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests2.subtitle}"
 			tasks: [
 				{
 					id: "62C60ACAB6FAC733"
@@ -163,7 +161,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests3.subtitle}"
 			tasks: [
 				{
 					id: "615CA90709AF9EE2"
@@ -192,7 +189,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests4.subtitle}"
 			tasks: [
 				{
 					id: "2A81AAFE840CE232"
@@ -333,7 +329,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests9.subtitle}"
 			tasks: [
 				{
 					id: "486EF4C783BE7F96"
@@ -362,7 +357,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests10.subtitle}"
 			tasks: [
 				{
 					id: "18B20B0FEE835CA8"
@@ -391,7 +385,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests11.subtitle}"
 			tasks: [
 				{
 					id: "21BCAC1F8B3099B7"
@@ -420,7 +413,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests12.subtitle}"
 			tasks: [
 				{
 					id: "783D2C2A78F4EDBD"
@@ -449,7 +441,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests13.subtitle}"
 			tasks: [
 				{
 					id: "0942D01457DACB76"
@@ -478,7 +469,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests14.subtitle}"
 			tasks: [
 				{
 					id: "2357EC02C1AAD0A9"
@@ -507,7 +497,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests15.subtitle}"
 			tasks: [
 				{
 					id: "6D27F59148737DEE"
@@ -556,7 +545,6 @@
 			dependencies: ["0D0118FCEFE0A8E2"]
 			id: "0D05510497DF52AB"
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests17.subtitle}"
 			tasks: [
 				{
 					id: "3B75A36B924354CC"
@@ -585,7 +573,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests18.subtitle}"
 			tasks: [
 				{
 					id: "7B71BF8CE5F0A295"
@@ -614,7 +601,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests19.subtitle}"
 			tasks: [
 				{
 					id: "07C0CB7E2D17495E"
@@ -643,7 +629,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests20.subtitle}"
 			tasks: [
 				{
 					id: "6960BCBD0925D522"
@@ -789,7 +774,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests25.subtitle}"
 			tasks: [
 				{
 					id: "1B9718F5C45C4436"
@@ -818,7 +802,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests26.subtitle}"
 			tasks: [
 				{
 					id: "1D25B90CB61CBC58"
@@ -847,7 +830,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests27.subtitle}"
 			tasks: [
 				{
 					id: "1857617ECD147F54"
@@ -876,7 +858,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests28.subtitle}"
 			tasks: [
 				{
 					id: "0CC32E25243D7C93"
@@ -905,7 +886,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests29.subtitle}"
 			tasks: [
 				{
 					id: "2CCAE40045618CB3"
@@ -934,7 +914,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests30.subtitle}"
 			tasks: [
 				{
 					id: "1FF119266D0CF297"
@@ -963,7 +942,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests31.subtitle}"
 			tasks: [
 				{
 					id: "7F51BF61124D9AEA"
@@ -1048,7 +1026,6 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.simply_swords.quests34.subtitle}"
 			tasks: [
 				{
 					id: "13DB3044B0654389"
