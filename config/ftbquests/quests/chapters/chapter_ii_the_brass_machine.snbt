@@ -168,6 +168,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					count: 20
+					id: "3B4B5AD2E461D733"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -337,6 +343,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: "true"
+					id: "0E4EAB68AC539692"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
 			]
 			tasks: [
 				{
@@ -394,6 +406,12 @@
 					item: "create:experience_nugget"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: "true"
+					id: "54D32BB412E23B4B"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
 			]
 			tasks: [
 				{
@@ -419,6 +437,12 @@
 					id: "095EB4DA657710CB"
 					item: "create:experience_nugget"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "48F8F356C43B1165"
+					table_id: 1302780656980067940L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -495,6 +519,12 @@
 					id: "39819254B55E4511"
 					item: "create:experience_nugget"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "680F614A30C9B2A8"
+					table_id: 1302780656980067940L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -670,12 +700,6 @@
 			id: "6F2EA0844769A10A"
 			rewards: [
 				{
-					count: 20
-					id: "4B38C1A7816655FA"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					count: 30
 					id: "45AA5A07B71C35F0"
 					item: "minecraft:redstone"
@@ -765,12 +789,6 @@
 			id: "637D976589937434"
 			rewards: [
 				{
-					count: 40
-					id: "016A23C18D36A9C8"
-					item: "create:experience_nugget"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "0938031FB8C4E56E"
 					item: "kubejs:brass_machine"
@@ -797,6 +815,12 @@
 				{
 					exclude_from_claim_all: "true"
 					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "74B7A78C1FBE14BB"
 					table_id: 2630622174541927595L
 					type: "choice"
 				}

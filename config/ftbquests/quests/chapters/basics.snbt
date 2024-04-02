@@ -145,11 +145,6 @@
 					item: "farmersdelight:sweet_berry_cookie"
 					type: "item"
 				}
-				{
-					id: "6F4B491F8FFFB7FF"
-					item: "ftbquests:book"
-					type: "item"
-				}
 			]
 			shape: "rsquare"
 			size: 2.0d
