@@ -1282,8 +1282,8 @@
 		}
 		{
 			dependencies: ["072DA448D144179C"]
-			description: [""]
-			icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
+			description: ["{ftbquests.chapter.bosses_and_skill_points.quests33.description}"]
+			icon: "create:blaze_burner"
 			id: "1447D924C3077D48"
 			rewards: [
 				{
@@ -1300,16 +1300,24 @@
 			subtitle: "{ftbquests.chapter.bosses_and_skill_points.quests33.subtitle}"
 			tasks: [
 				{
-					entity: "realmrpg_demons:ancient_demon_lord"
-					icon: "realmrpg_demons:ancient_demon_lord_spawn_egg"
-					id: "187692AE730D8462"
-					type: "kill"
-					value: 1L
+					id: "45F44F82B7A7A783"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							CustomModelData: 1450104
+							Damage: 0
+						}
+					}
+					match_nbt: "true"
+					title: "{ftbquests.chapter.bosses_and_skill_points.quests33.tasks0.title}"
+					type: "item"
+					weak_nbt_match: "true"
 				}
 			]
 			title: "{ftbquests.chapter.bosses_and_skill_points.quests33.title}"
 			x: -1.0d
-			y: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -1999,7 +2007,7 @@
 			]
 			title: "{ftbquests.chapter.bosses_and_skill_points.quests54.title}"
 			x: -1.0d
-			y: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["072DA448D144179C"]
@@ -2036,7 +2044,9 @@
 							}
 						}
 					}
+					match_nbt: "true"
 					type: "item"
+					weak_nbt_match: "true"
 				}
 			]
 			title: "{ftbquests.chapter.bosses_and_skill_points.quests55.title}"
