@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "forbidden_and_arcanus"
 	group: "1FA30C6751C69E7A"
@@ -21,7 +21,7 @@
 				""
 				"{ftbquests.chapter.forbidden_and_arcanus.quests0.description2}"
 			]
-			hide: true
+			hide: "true"
 			icon: "forbidden_arcanus:whirlwind_prism"
 			id: "5523A71F1688EA88"
 			rewards: [
@@ -335,7 +335,7 @@
 			dependencies: ["0B68E3C046C82860"]
 			description: ["{ftbquests.chapter.forbidden_and_arcanus.quests10.description}"]
 			id: "44B1B147CDAC4E36"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "2436BF5F9939867D"
@@ -366,7 +366,7 @@
 				"{ftbquests.chapter.forbidden_and_arcanus.quests11.description2}"
 			]
 			id: "7439CFAD20E3E2BF"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 2
@@ -399,7 +399,7 @@
 				""
 				"{ftbquests.chapter.forbidden_and_arcanus.quests12.description2}"
 			]
-			hide_dependency_lines: false
+			hide_dependency_lines: "false"
 			id: "5ED1896F1986BD2B"
 			rewards: [
 				{

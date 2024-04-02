@@ -1,12 +1,12 @@
 {
-	hide_tooltip: true
+	hide_tooltip: "true"
 	icon: "create:white_toolbox"
 	id: "1214681AE78C0664"
 	loot_size: 2
 	order_index: 0
 	rewards: [
 		{
-			count: 5
+			count: 8
 			item: "create:shaft"
 		}
 		{
@@ -100,6 +100,7 @@
 			item: "create:andesite_funnel"
 		}
 		{
+			count: 2
 			item: "create:andesite_tunnel"
 		}
 		{
@@ -112,6 +113,12 @@
 		{
 			count: 4
 			item: "create:white_sail"
+		}
+		{
+			item: "create:mechanical_bearing"
+		}
+		{
+			item: "create:windmill_bearing"
 		}
 	]
 	title: "{ftbquests.reward_tables.createbasicrewards.title}"

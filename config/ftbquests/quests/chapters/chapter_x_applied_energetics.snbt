@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_x_applied_energetics"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -90,8 +90,8 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "5F99D59B31FF34D4"
 			tasks: [
 				{
@@ -128,8 +128,8 @@
 		}
 		{
 			dependencies: ["108EA49E8421CCC7"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4919AEB1300D63B7"
 			tasks: [
 				{
@@ -172,8 +172,8 @@
 		{
 			dependencies: ["108EA49E8421CCC7"]
 			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests6.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "78425DC3875B9854"
 			subtitle: "{ftbquests.chapter.chapter_x_applied_energetics.quests6.subtitle}"
 			tasks: [
@@ -1379,7 +1379,7 @@
 		{
 			dependencies: ["3026C7FFA3B230FA"]
 			description: ["{ftbquests.chapter.chapter_x_applied_energetics.quests39.description}"]
-			hide: false
+			hide: "false"
 			id: "630BDF564F7516D7"
 			rewards: [
 				{

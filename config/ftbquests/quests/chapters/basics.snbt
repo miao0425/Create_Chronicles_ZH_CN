@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "basics"
 	group: ""
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 6.0d
 			hover: [ ]
 			image: "kubejs:textures/logo.png"
@@ -40,10 +40,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "2F72B652621B93C9"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.basics.quests0.rewards0.title}"
 					type: "command"
 				}
@@ -587,11 +587,13 @@
 				"{ftbquests.chapter.basics.quests17.description22}"
 				""
 				"{ftbquests.chapter.basics.quests17.description24}"
+				""
+				"{ftbquests.chapter.basics.quests17.description26}"
 			]
 			id: "3CE1B3AB173035B9"
 			rewards: [
 				{
-					count: 8
+					count: 20
 					id: "432F55EB62251142"
 					item: "minecraft:map"
 					type: "item"
@@ -699,7 +701,7 @@
 			subtitle: "{ftbquests.chapter.basics.quests21.subtitle}"
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					id: "46ABA342D99C4D1E"
 					item: "iceandfire:manuscript"
 					type: "item"
@@ -1700,7 +1702,7 @@
 			]
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					id: "1F623C90349DE761"
 					item: "create:crafting_blueprint"
 					type: "item"
@@ -1728,7 +1730,7 @@
 			]
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					id: "7C520AF11FE6262D"
 					item: "create:schematicannon"
 					type: "item"
@@ -1751,7 +1753,7 @@
 			]
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					icon: "create:blue_toolbox"
 					id: "1D1961EB37334B54"
 					item: {
@@ -1796,6 +1798,8 @@
 				"{ftbquests.chapter.basics.quests58.description0}"
 				""
 				"{ftbquests.chapter.basics.quests58.description2}"
+				""
+				"{ftbquests.chapter.basics.quests58.description4}"
 			]
 			id: "15E1385A52B7A632"
 			rewards: [
@@ -1947,7 +1951,7 @@
 							Damage: 0
 						}
 					}
-					match_nbt: false
+					match_nbt: "false"
 					type: "item"
 				}
 			]
@@ -2054,7 +2058,7 @@
 							Damage: 0
 						}
 					}
-					match_nbt: false
+					match_nbt: "false"
 					type: "item"
 				}
 			]
@@ -2108,7 +2112,7 @@
 				""
 				"{ftbquests.chapter.basics.quests66.description4}"
 			]
-			hide: false
+			hide: "false"
 			id: "0C4974DE21CEDF4B"
 			rewards: [
 				{
@@ -2347,6 +2351,13 @@
 				"{ftbquests.chapter.basics.quests73.description6}"
 			]
 			id: "123D70CA4959F172"
+			rewards: [
+				{
+					id: "74501D93CD967375"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "60FB6758FF913425"
@@ -2393,7 +2404,7 @@
 			]
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					id: "3D9D2F824D60EAC1"
 					item: "farmersdelight:stove"
 					type: "item"
@@ -2422,7 +2433,7 @@
 			]
 			tasks: [
 				{
-					consume_items: false
+					consume_items: "false"
 					id: "04EB28BC261F8CD3"
 					item: {
 						Count: 1b
@@ -2543,7 +2554,7 @@
 				{
 					id: "1299CA8805944EDF"
 					item: "minecraft:enchanted_golden_apple"
-					only_from_crafting: false
+					only_from_crafting: "false"
 					type: "item"
 				}
 			]
@@ -2592,7 +2603,7 @@
 				{
 					id: "553B43AE4BF55FB0"
 					item: "minecraft:enchanted_book"
-					only_from_crafting: false
+					only_from_crafting: "false"
 					type: "item"
 				}
 			]
@@ -3170,12 +3181,13 @@
 				""
 				"{ftbquests.chapter.basics.quests101.description6}"
 			]
+			icon: "createdeco:decal_warning"
 			id: "5525E70F7FBDBD92"
 			tasks: [
 				{
-					id: "27FA3D59FA635932"
-					item: "createdeco:decal_warning"
-					type: "item"
+					id: "0CBC9A977ED7A39C"
+					title: "{ftbquests.chapter.basics.quests101.tasks0.title}"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.chapter.basics.quests101.title}"

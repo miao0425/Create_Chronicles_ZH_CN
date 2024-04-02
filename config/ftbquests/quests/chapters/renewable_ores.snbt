@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "renewable_ores"
 	group: ""
@@ -10,8 +10,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -192,7 +192,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "018B793486C6832C"
 			tasks: [
 				{
@@ -206,7 +206,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "5198C559E16FE5F8"
 			tasks: [
 				{
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "74C870915AD24CFA"
 			tasks: [
 				{
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "5F205D0B5CFB0EA0"
 			tasks: [
 				{
@@ -296,7 +296,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "46986B63A3F554C9"
 			tasks: [
 				{
@@ -310,7 +310,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "72B77FB74E6F9EE4"
 			tasks: [
 				{
@@ -404,7 +404,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "5D4101FAF388E3C6"
 			tasks: [
 				{
@@ -418,7 +418,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "559F6C7AC2FFAF8B"
 			tasks: [
 				{
@@ -590,7 +590,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "6B5CD61BEC5DA6C4"
 			tasks: [
 				{
@@ -604,7 +604,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "22E56EC81482F489"
 			tasks: [
 				{
@@ -634,7 +634,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "1311E2CC15060E74"
 			tasks: [
 				{
@@ -648,7 +648,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "0CB74126AF8CF746"
 			tasks: [
 				{
@@ -717,7 +717,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "6AC3F323E4B49E41"
 			tasks: [
 				{
@@ -731,7 +731,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "3315B175F187D742"
 			tasks: [
 				{
@@ -774,7 +774,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "0B8ACADB9A7124D8"
 			tasks: [
 				{
@@ -788,7 +788,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "552C77EEE62B7E83"
 			tasks: [
 				{
@@ -834,7 +834,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "2A49012030A688AE"
 			tasks: [
 				{
@@ -848,7 +848,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "08555DFB93FE3B92"
 			tasks: [
 				{
@@ -927,8 +927,8 @@
 				""
 				"{ftbquests.chapter.renewable_ores.quests63.description10}"
 			]
-			hide: true
-			hide_dependent_lines: true
+			hide: "true"
+			hide_dependent_lines: "true"
 			id: "2AA838B09218F700"
 			rewards: [
 				{
@@ -996,7 +996,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "101A5F8BD84CBE03"
 			tasks: [
 				{
@@ -1010,7 +1010,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "12F66417863F4017"
 			tasks: [
 				{
@@ -1050,7 +1050,7 @@
 		}
 		{
 			dependencies: ["2AA838B09218F700"]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "64E747B93D74A16E"
 			tasks: [
 				{

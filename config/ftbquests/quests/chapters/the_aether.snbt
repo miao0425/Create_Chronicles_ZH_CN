@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "the_aether"
 	group: "13742BAAC673A80E"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.7d
 			hover: [ ]
 			image: "aether:textures/gui/menu_api/menu_icon_aether.png"
@@ -623,7 +623,7 @@
 				""
 				"{ftbquests.chapter.the_aether.quests14.description6}"
 			]
-			hide: true
+			hide: "true"
 			id: "7C32DED450405D92"
 			rewards: [
 				{
@@ -661,7 +661,7 @@
 				""
 				"{ftbquests.chapter.the_aether.quests15.description6}"
 			]
-			hide: true
+			hide: "true"
 			id: "63B35ED12D525A4F"
 			rewards: [
 				{
@@ -699,7 +699,7 @@
 				""
 				"{ftbquests.chapter.the_aether.quests16.description6}"
 			]
-			hide: true
+			hide: "true"
 			id: "50CC54774B835A50"
 			rewards: [
 				{
@@ -1374,7 +1374,7 @@
 				""
 				"{ftbquests.chapter.the_aether.quests37.description4}"
 			]
-			hide: true
+			hide: "true"
 			id: "61B4D6EE4FF48831"
 			rewards: [
 				{
@@ -1411,7 +1411,7 @@
 				""
 				"{ftbquests.chapter.the_aether.quests38.description5}"
 			]
-			hide: true
+			hide: "true"
 			id: "4E43DC757C08068B"
 			rewards: [
 				{

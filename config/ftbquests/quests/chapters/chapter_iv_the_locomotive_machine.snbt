@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_iv_the_locomotive_machine"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -61,8 +61,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "174567332B8DE8C1"
 			tasks: [
 				{
@@ -95,8 +95,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "1325CB313B08AB70"
 			tasks: [
 				{
@@ -110,8 +110,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "784EF4A65242E3FD"
 			tasks: [
 				{
@@ -125,8 +125,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "5C00CCFC83CCE7A4"
 			tasks: [
 				{
@@ -171,8 +171,8 @@
 		{
 			dependencies: ["6F2EA0844769A10A"]
 			dependency_requirement: "one_started"
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4B78BB8B294461A9"
 			tasks: [
 				{
@@ -186,10 +186,10 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4D774B40DB2BEA38"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "0EB79B5A265FBBA4"
@@ -207,7 +207,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "08B00F4FFF4BA13F"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "17494EABC0E0ED8B"
@@ -220,8 +220,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "07EE6AFA3FE693E1"
 			tasks: [
 				{
@@ -312,7 +312,7 @@
 				"3DFF1B74E8AADB57"
 			]
 			description: [""]
-			hide: true
+			hide: "true"
 			id: "143E325CFBC9FAC9"
 			shape: "rsquare"
 			size: 1.5d
@@ -406,10 +406,10 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "42CFF547BDAB44B1"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "641350D980FCA0F9"
@@ -422,8 +422,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0FA7629CCE64385C"
 			tasks: [
 				{
@@ -454,8 +454,8 @@
 		}
 		{
 			dependencies: ["6F2EA0844769A10A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "58DD96B724C875FE"
 			tasks: [
 				{
@@ -474,8 +474,8 @@
 				""
 				"{ftbquests.chapter.chapter_iv_the_locomotive_machine.quests26.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0AF71B3EB3531CAC"
 			tasks: [
 				{
@@ -489,7 +489,7 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
+			hide: "true"
 			id: "33274B5D531EF9B7"
 			tasks: [
 				{

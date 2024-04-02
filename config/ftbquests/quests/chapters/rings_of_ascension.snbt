@@ -1,18 +1,18 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: "true"
 	default_quest_shape: ""
 	filename: "rings_of_ascension"
 	group: "53374CFE946B8348"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_details_until_startable: "true"
+	hide_quest_until_deps_visible: "true"
 	icon: "ringsofascension:ring_slow_falling"
 	id: "000000000000031C"
 	images: [
 		{
 			click: ""
 			color: 3434985
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:textures/particle/spark_0.png"
@@ -24,8 +24,8 @@
 		{
 			click: ""
 			color: 13004288
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "minecraft:textures/particle/spark_0.png"
@@ -36,8 +36,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 0.8d
 			hover: [ ]
 			image: "enlightened_end:textures/particle/teleporter_spark_1.png"
@@ -48,8 +48,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 14.0d
 			hover: [ ]
 			image: "kubejs:textures/rings.png"
@@ -233,7 +233,7 @@
 		{
 			dependencies: ["0D0118FCEFE0A8E2"]
 			description: ["{ftbquests.chapter.rings_of_ascension.quests7.description}"]
-			hide: true
+			hide: "true"
 			id: "00000000000003B5"
 			rewards: [
 				{
@@ -568,8 +568,8 @@
 				"0D3F7751B579353F"
 				"64157A1BC3E09963"
 			]
-			hide: false
-			hide_dependency_lines: true
+			hide: "false"
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -578,7 +578,7 @@
 				}
 			}
 			id: "67B117317EB077BA"
-			invisible: true
+			invisible: "true"
 			rewards: [
 				{
 					id: "64337688FD649BE8"

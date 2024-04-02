@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: "true"
 	default_quest_shape: ""
 	filename: "the_end"
 	group: "13742BAAC673A80E"
@@ -8,8 +8,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 9.0d
 			hover: [ ]
 			image: "kubejs:textures/enderportal.png"
@@ -498,9 +498,9 @@
 				""
 				"{ftbquests.chapter.the_end.quests16.description6}"
 			]
-			hide: true
-			hide_dependency_lines: false
-			hide_dependent_lines: true
+			hide: "true"
+			hide_dependency_lines: "false"
+			hide_dependent_lines: "true"
 			id: "5B9C1D10A217657D"
 			subtitle: "{ftbquests.chapter.the_end.quests16.subtitle}"
 			tasks: [
@@ -523,7 +523,7 @@
 				""
 				"{ftbquests.chapter.the_end.quests17.description4}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "09C33BB3342632B4"
 			rewards: [
 				{

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "blue_skies"
 	group: "13742BAAC673A80E"
@@ -22,7 +22,7 @@
 				""
 				"{ftbquests.chapter.blue_skies.quests0.description8}"
 			]
-			hide: true
+			hide: "true"
 			icon: "blue_skies:blue_journal"
 			id: "198EB5AE0E18E6C3"
 			rewards: [
@@ -197,7 +197,7 @@
 				"{ftbquests.chapter.blue_skies.quests5.description2}"
 			]
 			id: "6E177CA79B7ABD7C"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 2
@@ -284,7 +284,7 @@
 			dependencies: ["6E177CA79B7ABD7C"]
 			description: ["{ftbquests.chapter.blue_skies.quests7.description}"]
 			id: "5ED6634F52CAC058"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "36D8782E87E34C17"
@@ -622,7 +622,7 @@
 				"{ftbquests.chapter.blue_skies.quests16.description4}"
 			]
 			id: "6783F21811D0F149"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 2
@@ -658,7 +658,7 @@
 			dependencies: ["23CC5B8D9AAD4E12"]
 			description: ["{ftbquests.chapter.blue_skies.quests17.description}"]
 			id: "3857D8DF87108DAB"
-			optional: true
+			optional: "true"
 			shape: "rsquare"
 			tasks: [
 				{
@@ -678,7 +678,7 @@
 				"{ftbquests.chapter.blue_skies.quests18.description2}"
 			]
 			id: "47EFF4429010E26C"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 4
@@ -1016,12 +1016,17 @@
 		{
 			dependencies: ["1F944EEA0F397B95"]
 			id: "42228FEECEAA2241"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "672DCB4C384FBEE3"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					id: "7F21BC1935A61170"
+					item: "minecraft:netherite_scrap"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -1074,7 +1079,7 @@
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
 			id: "02089D95AA679502"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "617E21F0834DFD65"
@@ -1103,12 +1108,17 @@
 		{
 			dependencies: ["0DB1A5763EDD6A7F"]
 			id: "68C79649BB060EFA"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "5F2826B2B406F6A5"
 					type: "xp"
 					xp: 1000
+				}
+				{
+					id: "7F100302934F788C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -1165,7 +1175,7 @@
 		{
 			dependencies: ["7E124E6EFC7E8ADD"]
 			id: "2F08F444586722F7"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "5A12BFE4AB3B7A62"
@@ -1193,7 +1203,7 @@
 		{
 			dependencies: ["7E124E6EFC7E8ADD"]
 			id: "582FCFC9A5062978"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "4EF3FB07E782AD38"
@@ -1215,7 +1225,7 @@
 		{
 			dependencies: ["0515422E36E4E9A3"]
 			id: "439EA0E50E369340"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "2DB9A48CA66E968F"

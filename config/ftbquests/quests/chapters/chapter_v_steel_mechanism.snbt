@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_v_steel_mechanism"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -178,7 +178,7 @@
 		{
 			dependencies: ["61D53F99D72D0940"]
 			id: "66390863259FE74C"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "07B7F0C605A4CA2E"
@@ -196,7 +196,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5429EC5DB7D8429C"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "1AE14BF44D6AE9E2"
@@ -209,10 +209,10 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "6AD87BACD480D27B"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "6515B66AB931E976"
@@ -225,8 +225,8 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0D2D729534CC797F"
 			tasks: [
 				{
@@ -379,8 +379,8 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "46E5565D623C0AC8"
 			tasks: [
 				{
@@ -505,7 +505,7 @@
 			dependencies: ["409394CEF9087E88"]
 			dependency_requirement: "one_completed"
 			id: "7E82E9591EDB4835"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "0D462E5C990EC927"
@@ -519,10 +519,10 @@
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
 			dependency_requirement: "one_completed"
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "409394CEF9087E88"
-			optional: true
+			optional: "true"
 			progression_mode: "linear"
 			subtitle: "{ftbquests.chapter.chapter_v_steel_mechanism.quests28.subtitle}"
 			tasks: [
@@ -550,8 +550,8 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "7682212B86FC5B85"
 			tasks: [
 				{
@@ -569,7 +569,7 @@
 				"1DBA19EB422182AF"
 			]
 			id: "61D53F99D72D0940"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "327FDFAE9ECCD6C5"
@@ -582,10 +582,10 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "1DBA19EB422182AF"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "08A5F4FD57B1A774"
@@ -598,10 +598,10 @@
 		}
 		{
 			dependencies: ["3DFF1B74E8AADB57"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "184B9A5F983FA7A5"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "3EE64AE0721EA522"

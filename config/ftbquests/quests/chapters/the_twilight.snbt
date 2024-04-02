@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "the_twilight"
 	group: "13742BAAC673A80E"
@@ -15,7 +15,7 @@
 				""
 				"{ftbquests.chapter.the_twilight.quests0.description2}"
 			]
-			hide: true
+			hide: "true"
 			id: "2F0F635C06E8D307"
 			rewards: [
 				{

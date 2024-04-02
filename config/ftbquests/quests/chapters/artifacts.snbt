@@ -1,18 +1,18 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: "true"
 	default_quest_shape: "square"
 	filename: "artifacts"
 	group: "53374CFE946B8348"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_details_until_startable: "true"
+	hide_quest_until_deps_visible: "true"
 	icon: "artifacts:mimic_spawn_egg"
 	id: "464FB437D5DF7824"
 	images: [
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: ["{ftbquests.chapter.artifacts.images0.hover}"]
 			image: "curios:slot/empty_head_slot"
@@ -24,8 +24,8 @@
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: ["{ftbquests.chapter.artifacts.images1.hover}"]
 			image: "curios:slot/empty_necklace_slot"
@@ -37,8 +37,8 @@
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: ["{ftbquests.chapter.artifacts.images2.hover}"]
 			image: "curios:slot/empty_belt_slot"
@@ -50,8 +50,8 @@
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: ["{ftbquests.chapter.artifacts.images3.hover}"]
 			image: "curios:slot/empty_hands_slot"
@@ -63,8 +63,8 @@
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: ["{ftbquests.chapter.artifacts.images4.hover}"]
 			image: "minecraft:item/empty_armor_slot_boots"
@@ -76,8 +76,8 @@
 		{
 			click: ""
 			color: 15333359
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "curios:slot/empty_curio_slot"
@@ -911,7 +911,7 @@
 				"6E98473128936047"
 				"7F1AB8E8DA7BFD77"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -920,7 +920,7 @@
 				}
 			}
 			id: "703CC46FAC00A5D9"
-			invisible: true
+			invisible: "true"
 			rewards: [
 				{
 					id: "181ECA8ED4C122FD"

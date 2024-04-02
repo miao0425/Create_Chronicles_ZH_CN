@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_iii_the_cooper_machine"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -40,8 +40,8 @@
 				""
 				"{ftbquests.chapter.chapter_iii_the_cooper_machine.quests0.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "6C54D9FC570E8C23"
 			rewards: [
 				{
@@ -51,7 +51,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3217A75AB184F68E"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -83,7 +83,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "29C4E661DF729D1F"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -111,7 +111,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "05472F8D52088E78"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -171,12 +171,12 @@
 				""
 				"{ftbquests.chapter.chapter_iii_the_cooper_machine.quests4.description4}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "469BCDA1AD3D80FA"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "24C7ADB58CC56445"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -203,7 +203,7 @@
 			id: "68CD9910A1658762"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7A2C5221D5902969"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -228,12 +228,12 @@
 				""
 				"{ftbquests.chapter.chapter_iii_the_cooper_machine.quests6.description4}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "48413A6A0A9BFFA7"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7D66733C78182A4B"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -265,7 +265,7 @@
 			id: "26B8E592AED8E995"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "51DFB7706D978901"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -288,12 +288,12 @@
 				""
 				"{ftbquests.chapter.chapter_iii_the_cooper_machine.quests8.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "15777779AE0400E3"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3E6C98064F67E2B2"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -325,7 +325,7 @@
 				""
 				"{ftbquests.chapter.chapter_iii_the_cooper_machine.quests9.description4}"
 			]
-			hide: true
+			hide: "true"
 			id: "5012AE3E688F40D7"
 			rewards: [
 				{
@@ -334,21 +334,33 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "0968A28FFA719131"
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "187CE4BC728BED81"
 					table_id: 2630622174541927595L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "65F5AA011CBBE1B3"
 					table_id: 2630622174541927595L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "230A1C394453E79C"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "1758421E8B8225FD"
+					table_id: 1302780656980067940L
 					type: "choice"
 				}
 			]
@@ -379,16 +391,22 @@
 			id: "646C119DC7AC80AB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "04D80E217126D30D"
-					table_id: 1302780656980067940L
-					type: "random"
-				}
-				{
 					count: 8
 					id: "42E36A74EEE55EF0"
 					item: "create_sa:hydraulic_engine"
 					type: "item"
+				}
+				{
+					count: 2
+					id: "75FE1FEE6577E8C1"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "1CD417F9CCDEFFAB"
+					table_id: 1302780656980067940L
+					type: "choice"
 				}
 			]
 			shape: "rsquare"

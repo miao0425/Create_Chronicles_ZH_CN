@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_ix_calculation_mechanism"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -66,8 +66,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "496C8280CF77787E"
 			tasks: [
 				{
@@ -94,8 +94,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "55E6E99D3CEF6003"
 			tasks: [
 				{
@@ -151,8 +151,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "1548E2F07EAD637F"
 			tasks: [
 				{
@@ -215,8 +215,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4ECA82782988ACB9"
 			tasks: [
 				{
@@ -318,8 +318,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "34ADDB9018231BCA"
 			tasks: [
 				{
@@ -1104,8 +1104,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "582E68291A96A9E7"
 			tasks: [
 				{
@@ -1119,8 +1119,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "73D579268007A8C7"
 			tasks: [
 				{
@@ -1134,8 +1134,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "3F0E651F191CD81F"
 			tasks: [
 				{
@@ -1149,8 +1149,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "2A0B07555EC8D47E"
 			tasks: [
 				{
@@ -1164,8 +1164,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "08277642FD16A56E"
 			tasks: [
 				{
@@ -1179,8 +1179,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "44A8B31CD719B906"
 			tasks: [
 				{
@@ -1194,8 +1194,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "137CC533B864B25F"
 			tasks: [
 				{
@@ -1209,8 +1209,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "32CEB5F5DA7E08E5"
 			tasks: [
 				{
@@ -1224,8 +1224,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4A5C011878F7BB63"
 			tasks: [
 				{
@@ -1261,8 +1261,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "05629E7F780A315D"
 			tasks: [
 				{
@@ -1276,8 +1276,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "64D7956A3E6681A5"
 			subtitle: "{ftbquests.chapter.chapter_ix_calculation_mechanism.quests83.subtitle}"
 			tasks: [
@@ -1292,8 +1292,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "41444693F75F309B"
 			tasks: [
 				{
@@ -1320,8 +1320,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "6B99D6C0A6FBA697"
 			tasks: [
 				{
@@ -1335,8 +1335,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "47CF120182269404"
 			tasks: [
 				{
@@ -1405,8 +1405,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "03BCAD5BFB9DA32C"
 			tasks: [
 				{
@@ -1420,8 +1420,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "11E236BCD6DE38E5"
 			tasks: [
 				{
@@ -1435,8 +1435,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "535537D880A5C63B"
 			tasks: [
 				{
@@ -1450,8 +1450,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "683BD9B4E6116735"
 			tasks: [
 				{
@@ -1478,8 +1478,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "53EC81CE0F98EB86"
 			tasks: [
 				{
@@ -1493,8 +1493,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "16952288925225D2"
 			tasks: [
 				{
@@ -1508,8 +1508,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "3C0427C75D2CA7F2"
 			tasks: [
 				{
@@ -1523,8 +1523,8 @@
 		}
 		{
 			dependencies: ["47A6ACAA667AD14A"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "66C6FAD9FBDE1094"
 			tasks: [
 				{

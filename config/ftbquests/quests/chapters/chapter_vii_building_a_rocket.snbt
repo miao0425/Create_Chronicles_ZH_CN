@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_vii_building_a_rocket"
 	group: "5237AEA7260D740E"
@@ -12,8 +12,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/earth.png"
@@ -24,8 +24,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 4.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/moon.png"
@@ -56,8 +56,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "5F8B17F4A8CF47C7"
 			tasks: [
 				{
@@ -71,8 +71,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "2F520B59F10123D2"
 			tasks: [
 				{
@@ -87,8 +87,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "778AEC1710A4E237"
 			tasks: [
 				{
@@ -103,8 +103,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "08ED76082CFF1D16"
 			tasks: [
 				{
@@ -119,8 +119,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "797DCA89A0B3FBB8"
 			tasks: [
 				{
@@ -134,8 +134,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0D1A3BE5396104F7"
 			tasks: [
 				{
@@ -215,8 +215,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "2CCB9C223585FA23"
 			tasks: [
 				{
@@ -231,8 +231,8 @@
 		{
 			dependencies: ["1084B343FEEBB88E"]
 			dependency_requirement: "one_completed"
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "4EE82272D412DB9C"
 			tasks: [
 				{
@@ -252,8 +252,8 @@
 				""
 				"{ftbquests.chapter.chapter_vii_building_a_rocket.quests11.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "75BD9E93A6143DC7"
 			tasks: [
 				{
@@ -267,8 +267,8 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "72EC381A9B79EF64"
 			tasks: [
 				{
@@ -287,8 +287,8 @@
 				""
 				"{ftbquests.chapter.chapter_vii_building_a_rocket.quests13.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "086223FF8861479F"
 			rewards: [
 				{
@@ -359,8 +359,8 @@
 				""
 				"{ftbquests.chapter.chapter_vii_building_a_rocket.quests14.description6}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			icon: "ad_astra:oxygen_loader"
 			id: "6CE8C3410296E977"
 			min_width: 300
@@ -398,10 +398,10 @@
 				""
 				"{ftbquests.chapter.chapter_vii_building_a_rocket.quests15.description2}"
 			]
-			hide: true
+			hide: "true"
 			icon: "ad_astra:space_painting"
 			id: "509BB6BF39848F5B"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					count: 32L
@@ -429,7 +429,7 @@
 				"{ftbquests.chapter.chapter_vii_building_a_rocket.quests16.description4}"
 			]
 			id: "01B1F88F57961B10"
-			optional: true
+			optional: "true"
 			tasks: [
 				{
 					id: "469F37921FE70F08"
@@ -444,10 +444,10 @@
 		{
 			dependencies: ["47A6ACAA667AD14A"]
 			description: ["{ftbquests.chapter.chapter_vii_building_a_rocket.quests17.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "37D437BA68D6864C"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "56C2799476D03572"
@@ -470,10 +470,10 @@
 		{
 			dependencies: ["47A6ACAA667AD14A"]
 			description: ["{ftbquests.chapter.chapter_vii_building_a_rocket.quests18.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "29A64A556C101D83"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "496CCA723B67B909"
@@ -496,9 +496,9 @@
 			dependencies: ["47A6ACAA667AD14A"]
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.chapter.chapter_vii_building_a_rocket.quests19.description}"]
-			hide: true
+			hide: "true"
 			id: "694646586C18C609"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					id: "47210264186C3DFA"

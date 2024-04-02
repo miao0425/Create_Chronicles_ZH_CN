@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "deeper_and_darker"
 	group: "13742BAAC673A80E"
@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["123D70CA4959F172"]
-			hide: true
+			hide: "true"
 			id: "731C3214BB61FDAE"
 			rewards: [
 				{
@@ -70,7 +70,7 @@
 				"123D70CA4959F172"
 			]
 			description: ["{ftbquests.chapter.deeper_and_darker.quests2.description}"]
-			hide: true
+			hide: "true"
 			id: "704CCA2CEAB23B4D"
 			rewards: [
 				{

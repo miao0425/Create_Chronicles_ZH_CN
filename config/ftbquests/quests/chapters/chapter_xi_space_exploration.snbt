@@ -1,6 +1,6 @@
 {
-	always_invisible: true
-	default_hide_dependency_lines: false
+	always_invisible: "true"
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_xi_space_exploration"
 	group: "5237AEA7260D740E"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/mars.png"
@@ -21,8 +21,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/mercury.png"
@@ -33,8 +33,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/venus.png"
@@ -45,8 +45,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "ad_astra:textures/painting/glacio.png"
@@ -111,7 +111,7 @@
 			id: "0CD89C878F66F782"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7B0DDEFA030523E4"
 					type: "loot"
 				}
@@ -149,7 +149,7 @@
 			id: "06895558802135C9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "4FC4CEBF7FDAE995"
 					type: "loot"
 				}
@@ -194,7 +194,7 @@
 			id: "0B47AFDA7565D597"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "76C9DD4DD9EC91A5"
 					type: "loot"
 				}
@@ -470,7 +470,7 @@
 			id: "7E2CC0CBD8ED1A60"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "480AB9BA6450B63D"
 					type: "loot"
 				}
@@ -640,10 +640,10 @@
 			y: 17.5d
 		}
 		{
-			hide: true
-			hide_dependent_lines: true
+			hide: "true"
+			hide_dependent_lines: "true"
 			id: "6BADF9AAB7413162"
-			invisible: true
+			invisible: "true"
 			tasks: [
 				{
 					id: "060C0AD3CAA59AAB"

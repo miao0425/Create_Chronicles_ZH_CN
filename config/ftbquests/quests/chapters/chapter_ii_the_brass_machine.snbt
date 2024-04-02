@@ -1,6 +1,6 @@
 {
 	autofocus_id: "6F2EA0844769A10A"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_ii_the_brass_machine"
 	group: "5237AEA7260D740E"
@@ -19,8 +19,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -212,8 +212,8 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests7.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "64A476C01D1C4742"
 			rewards: [
 				{
@@ -244,8 +244,8 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests8.description6}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "1C5DFA2AD6DEE1B2"
 			rewards: [
 				{
@@ -277,8 +277,8 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests9.description6}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "05836C34CD66A56F"
 			rewards: [
 				{
@@ -301,10 +301,10 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["{ftbquests.chapter.chapter_ii_the_brass_machine.quests10.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "671ABB3F4DDF8A89"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -357,7 +357,7 @@
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests12.description2}"
 			]
 			id: "201291E8B8D4FE73"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -434,8 +434,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["{ftbquests.chapter.chapter_ii_the_brass_machine.quests15.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "555CE8F6001EF8E7"
 			rewards: [
 				{
@@ -464,8 +464,8 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests16.description4}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "14ADA913C53709AE"
 			rewards: [
 				{
@@ -510,8 +510,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["{ftbquests.chapter.chapter_ii_the_brass_machine.quests18.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "5167DEF3903D6CFD"
 			rewards: [
 				{
@@ -544,7 +544,7 @@
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests19.description2}"
 			]
 			id: "2BBB5E496BBD52C5"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -570,10 +570,10 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests20.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "70FE285006F6632F"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -601,7 +601,7 @@
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests21.description2}"
 			]
 			id: "61B5DE7788ED3D6D"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -628,10 +628,10 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests22.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "7A50893172D43878"
-			optional: true
+			optional: "true"
 			rewards: [
 				{
 					count: 5
@@ -699,6 +699,12 @@
 					item: "create:precision_mechanism"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: "true"
+					id: "79BDEFBD13CE8B52"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -719,8 +725,8 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests24.description2}"
 			]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "588F642CD467FC64"
 			rewards: [
 				{
@@ -755,7 +761,7 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests25.description10}"
 			]
-			hide: true
+			hide: "true"
 			id: "637D976589937434"
 			rewards: [
 				{
@@ -788,6 +794,12 @@
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: "true"
+					id: "595859079B6F0687"
+					table_id: 2630622174541927595L
+					type: "choice"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -817,7 +829,7 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests26.description11}"
 			]
-			hide: true
+			hide: "true"
 			id: "738E4BA03DA3D655"
 			rewards: [
 				{
@@ -857,8 +869,8 @@
 		{
 			dependencies: ["646C119DC7AC80AB"]
 			description: ["{ftbquests.chapter.chapter_ii_the_brass_machine.quests27.description}"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "7F75BF2B511A2B14"
 			rewards: [
 				{
@@ -886,7 +898,7 @@
 				""
 				"{ftbquests.chapter.chapter_ii_the_brass_machine.quests28.description3}"
 			]
-			hide: true
+			hide: "true"
 			id: "62E69747ECE312C3"
 			rewards: [
 				{

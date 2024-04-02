@@ -1,10 +1,10 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: "true"
 	default_quest_shape: ""
 	filename: "simply_swords"
 	group: "53374CFE946B8348"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_details_until_startable: "true"
+	hide_quest_until_deps_visible: "true"
 	icon: {
 		Count: 1b
 		id: "simplyswords:awakened_lichblade"
@@ -57,7 +57,7 @@
 				"2169375E832C2F25"
 				"0040CDCBC2EB8DDF"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -66,7 +66,7 @@
 				}
 			}
 			id: "6C71E2ABAA99C005"
-			invisible: true
+			invisible: "true"
 			rewards: [
 				{
 					id: "4C106559A388027E"
@@ -667,7 +667,7 @@
 							Damage: 0
 						}
 					}
-					match_nbt: false
+					match_nbt: "false"
 					type: "item"
 				}
 			]
@@ -705,8 +705,8 @@
 		{
 			dependencies: ["34BBF229D598EC32"]
 			description: [""]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "3818BF7AAFFFF348"
 			rewards: [
 				{
@@ -735,8 +735,8 @@
 		{
 			dependencies: ["3818BF7AAFFFF348"]
 			description: [""]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "7E05746BAA2DFC51"
 			rewards: [
 				{
@@ -1072,8 +1072,8 @@
 		}
 		{
 			dependencies: ["10E6A5CCEA7AF675"]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "0AA8A1F80F280ABD"
 			shape: "square"
 			tasks: [
@@ -1094,8 +1094,8 @@
 		}
 		{
 			dependencies: ["10E6A5CCEA7AF675"]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "6D240A5EFE38CB75"
 			shape: "square"
 			tasks: [
@@ -1116,8 +1116,8 @@
 		}
 		{
 			dependencies: ["6D240A5EFE38CB75"]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "2C73BC02BBEBC431"
 			shape: "square"
 			tasks: [
@@ -1138,8 +1138,8 @@
 		}
 		{
 			dependencies: ["0AA8A1F80F280ABD"]
-			hide: false
-			hide_dependency_lines: false
+			hide: "false"
+			hide_dependency_lines: "false"
 			id: "4BFEA32C76691954"
 			shape: "square"
 			tasks: [

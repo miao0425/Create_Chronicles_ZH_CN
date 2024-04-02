@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_i_the_andesite_machine"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -44,7 +44,7 @@
 				""
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests0.description6}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			icon: "twilightforest:time_sapling"
 			id: "12796FE2B6E3D53E"
 			rewards: [
@@ -55,7 +55,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2A6BDC527F3A10DE"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -96,7 +96,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "4C92AA3CAF9AEAD3"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -131,7 +131,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "125195B8E31B68C8"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -166,7 +166,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "05452EAA7FA877BB"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -201,7 +201,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "152D17CC48AFF968"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -233,7 +233,7 @@
 				""
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests5.description4}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "6528F97D788A957A"
 			rewards: [
 				{
@@ -243,7 +243,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2FE38AE7AD47A4E7"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -269,7 +269,7 @@
 				""
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests6.description4}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "72070D0355244B40"
 			rewards: [
 				{
@@ -279,7 +279,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "0B21491A4B9C7B0F"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -316,7 +316,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2E10C92B2759B3CD"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -349,7 +349,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "65603C728EB8CDDD"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -385,7 +385,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "1485BED3EB93240F"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -419,7 +419,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "50B1831054F33B43"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -463,8 +463,14 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "76AB79084D819171"
+					table_id: 1302780656980067940L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: "true"
+					id: "6401DB62BCC20443"
 					table_id: 1302780656980067940L
 					type: "choice"
 				}
@@ -492,7 +498,7 @@
 				""
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests12.description4}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "0BEFDBD8AC519539"
 			rewards: [
 				{
@@ -502,7 +508,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "030DC0334B9AAC2E"
 					table_id: 1302780656980067940L
 					type: "random"
@@ -534,7 +540,7 @@
 				" "
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests13.description4}"
 			]
-			hide: true
+			hide: "true"
 			id: "3AEFFAED564130A6"
 			rewards: [
 				{
@@ -555,16 +561,22 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2475DBB309D7CCD4"
 					table_id: 1302780656980067940L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "01F40A2E704680D9"
 					table_id: 1302780656980067940L
 					type: "choice"
+				}
+				{
+					count: 10
+					id: "3AD2EC529AA7184F"
+					item: "minecraft:iron_ingot"
+					type: "item"
 				}
 			]
 			shape: "rsquare"
@@ -593,8 +605,8 @@
 				""
 				"{ftbquests.chapter.chapter_i_the_andesite_machine.quests14.description8}"
 			]
-			hide: true
-			hide_dependent_lines: true
+			hide: "true"
+			hide_dependent_lines: "true"
 			id: "342BCE36CF749057"
 			rewards: [
 				{

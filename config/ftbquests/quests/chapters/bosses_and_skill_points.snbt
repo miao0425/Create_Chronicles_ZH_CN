@@ -1,17 +1,17 @@
 {
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: "true"
 	default_quest_shape: ""
 	filename: "bosses_and_skill_points"
 	group: ""
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_details_until_startable: "true"
+	hide_quest_until_deps_visible: "true"
 	icon: "kubejs:skill_add_point"
 	id: "16389783F38DFDED"
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
@@ -22,8 +22,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 11.5d
 			hover: [ ]
 			image: "forbidden_arcanus:block/arcane_polished_darkstone"
@@ -34,8 +34,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
@@ -46,8 +46,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
@@ -58,8 +58,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 2.0d
 			hover: [ ]
 			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
@@ -70,8 +70,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
@@ -82,8 +82,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
@@ -94,8 +94,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.0d
 			hover: [ ]
 			image: "createdeco:block/palettes/decals/decal_skull"
@@ -122,10 +122,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "50DF8030A3412975"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests0.rewards0.title}"
 					type: "command"
 				}
@@ -156,10 +156,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "03E940FAAD38134C"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests1.rewards0.title}"
 					type: "command"
 				}
@@ -190,10 +190,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "7CA935B0479A4539"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests2.rewards0.title}"
 					type: "command"
 				}
@@ -226,10 +226,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "637499C1EF6D799F"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests3.rewards0.title}"
 					type: "command"
 				}
@@ -255,10 +255,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "42E586511F8FACBA"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests4.rewards0.title}"
 					type: "command"
 				}
@@ -292,10 +292,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "574B0E49AD93B0FB"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests5.rewards0.title}"
 					type: "command"
 				}
@@ -322,10 +322,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "77C13FB102857BB9"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests6.rewards0.title}"
 					type: "command"
 				}
@@ -351,7 +351,7 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6FC75D49789DE246"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests7.rewards0.title}"
@@ -386,10 +386,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "084B87957DA020A9"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests8.rewards0.title}"
 					type: "command"
 				}
@@ -416,10 +416,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "2A63F9AFE1D90235"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests9.rewards0.title}"
 					type: "command"
 				}
@@ -453,10 +453,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "01C2773FBDC2293E"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests10.rewards0.title}"
 					type: "command"
 				}
@@ -489,10 +489,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "07F3C40E1FE39405"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests11.rewards0.title}"
 					type: "command"
 				}
@@ -526,10 +526,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "262CB855D17DBC7E"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests12.rewards0.title}"
 					type: "command"
 				}
@@ -566,10 +566,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "69675DA31FC03D1F"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests13.rewards0.title}"
 					type: "command"
 				}
@@ -589,20 +589,20 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: "false"
 			dependencies: ["072DA448D144179C"]
 			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
+			hide_dependency_lines: "true"
+			hide_dependent_lines: "true"
+			hide_details_until_startable: "true"
 			id: "4B8AA887F0B4664E"
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "1EE4CE7588BA7EFB"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests14.rewards0.title}"
 					type: "command"
 				}
@@ -629,21 +629,21 @@
 			y: 2.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: "false"
 			dependencies: ["072DA448D144179C"]
 			description: ["{ftbquests.chapter.bosses_and_skill_points.quests15.description}"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
+			hide_dependency_lines: "true"
+			hide_dependent_lines: "true"
+			hide_details_until_startable: "true"
 			icon: "iceandfire:hydra_fang"
 			id: "23EF18C11A9B1FBD"
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "4638C13CFDF8399A"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests15.rewards0.title}"
 					type: "command"
 				}
@@ -664,21 +664,21 @@
 			y: 3.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: "false"
 			dependencies: ["072DA448D144179C"]
 			description: ["{ftbquests.chapter.bosses_and_skill_points.quests16.description}"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
+			hide_dependency_lines: "true"
+			hide_dependent_lines: "true"
+			hide_details_until_startable: "true"
 			icon: "iceandfire:sea_serpent_fang"
 			id: "1AB94A49F0A4427D"
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "7ADAC30E2731B667"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests16.rewards0.title}"
 					type: "command"
 				}
@@ -706,10 +706,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "46598E458AAF4C7A"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests17.rewards0.title}"
 					type: "command"
 				}
@@ -743,10 +743,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "5D6B89B090FFEC34"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests18.rewards0.title}"
 					type: "command"
 				}
@@ -779,10 +779,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "19F37DE102460CFA"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests19.rewards0.title}"
 					type: "command"
 				}
@@ -815,10 +815,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "704D2BDFDE77D350"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests20.rewards0.title}"
 					type: "command"
 				}
@@ -838,12 +838,12 @@
 			y: 1.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: "false"
 			dependencies: ["072DA448D144179C"]
 			description: [""]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_details_until_startable: true
+			hide_dependency_lines: "true"
+			hide_dependent_lines: "true"
+			hide_details_until_startable: "true"
 			icon: {
 				Count: 1b
 				id: "iceandfire:myrmex_desert_helmet"
@@ -855,10 +855,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "3D8295649714F002"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests21.rewards0.title}"
 					type: "command"
 				}
@@ -903,10 +903,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "22668824FB494143"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests22.rewards0.title}"
 					type: "command"
 				}
@@ -940,10 +940,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "00E081CC230B46DD"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests23.rewards0.title}"
 					type: "command"
 				}
@@ -980,10 +980,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6984CC523C61BCB1"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests24.rewards0.title}"
 					type: "command"
 				}
@@ -1020,10 +1020,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6322B9827A2BF329"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests25.rewards0.title}"
 					type: "command"
 				}
@@ -1050,10 +1050,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "32768E131EE7A65A"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests26.rewards0.title}"
 					type: "command"
 				}
@@ -1080,10 +1080,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "7F6D245ED3B792DE"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests27.rewards0.title}"
 					type: "command"
 				}
@@ -1120,10 +1120,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "724FEB568BBCB2D5"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests28.rewards0.title}"
 					type: "command"
 				}
@@ -1160,10 +1160,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "48AE090E327ABC7F"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests29.rewards0.title}"
 					type: "command"
 				}
@@ -1195,10 +1195,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "002FE13B8FD7B103"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests30.rewards0.title}"
 					type: "command"
 				}
@@ -1226,10 +1226,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "378815EDAB66FE96"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests31.rewards0.title}"
 					type: "command"
 				}
@@ -1257,10 +1257,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "4A6EC55ED17B234E"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests32.rewards0.title}"
 					type: "command"
 				}
@@ -1288,10 +1288,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "19507BFF9635CD09"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests33.rewards0.title}"
 					type: "command"
 				}
@@ -1319,10 +1319,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "11785BB87317FFD8"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests34.rewards0.title}"
 					type: "command"
 				}
@@ -1350,10 +1350,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "3D7501C5BA1A2652"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests35.rewards0.title}"
 					type: "command"
 				}
@@ -1381,10 +1381,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "4F2074C87E8E3440"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests36.rewards0.title}"
 					type: "command"
 				}
@@ -1412,10 +1412,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "3F86E43B3F80D722"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests37.rewards0.title}"
 					type: "command"
 				}
@@ -1443,10 +1443,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "261DD4AC3353A153"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests38.rewards0.title}"
 					type: "command"
 				}
@@ -1474,10 +1474,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "362C0272415F76D8"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests39.rewards0.title}"
 					type: "command"
 				}
@@ -1504,10 +1504,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6DA4D456BA6CD79D"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests40.rewards0.title}"
 					type: "command"
 				}
@@ -1534,10 +1534,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "18D5C48D92709FF7"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests41.rewards0.title}"
 					type: "command"
 				}
@@ -1564,10 +1564,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "24D5883822C00526"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests42.rewards0.title}"
 					type: "command"
 				}
@@ -1601,10 +1601,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "0A5A2011633F2016"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests43.rewards0.title}"
 					type: "command"
 				}
@@ -1646,10 +1646,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "0CF524004E0E9088"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests44.rewards0.title}"
 					type: "command"
 				}
@@ -1693,10 +1693,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "34C86FF91B85C163"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests45.rewards0.title}"
 					type: "command"
 				}
@@ -1732,10 +1732,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "586AEB753D3783EA"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests46.rewards0.title}"
 					type: "command"
 				}
@@ -1762,10 +1762,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6F16667A95F0722F"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests47.rewards0.title}"
 					type: "command"
 				}
@@ -1790,10 +1790,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "52461B8E6869D388"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests48.rewards0.title}"
 					type: "command"
 				}
@@ -1818,10 +1818,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "5B29D59699E791F8"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests49.rewards0.title}"
 					type: "command"
 				}
@@ -1846,10 +1846,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "24C7C537994F50C8"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests50.rewards0.title}"
 					type: "command"
 				}
@@ -1875,10 +1875,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "4183F285584DF8D4"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests51.rewards0.title}"
 					type: "command"
 				}
@@ -1912,10 +1912,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "49B9533F17F164D3"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests52.rewards0.title}"
 					type: "command"
 				}
@@ -1949,10 +1949,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "1AD1DA989CCF391E"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests53.rewards0.title}"
 					type: "command"
 				}
@@ -1978,10 +1978,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "4D43FCE63A4CAFF4"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests54.rewards0.title}"
 					type: "command"
 				}
@@ -2013,10 +2013,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "6EB15BC8D12B9F3F"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests55.rewards0.title}"
 					type: "command"
 				}
@@ -2102,8 +2102,8 @@
 				"1B579FA633476F4B"
 				"0990BE5505F823C2"
 			]
-			hide: false
-			hide_dependency_lines: true
+			hide: "false"
+			hide_dependency_lines: "true"
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -2112,7 +2112,7 @@
 				}
 			}
 			id: "025314CC80D7286F"
-			invisible: true
+			invisible: "true"
 			rewards: [
 				{
 					id: "45D461EBEE406919"
@@ -2150,10 +2150,10 @@
 			rewards: [
 				{
 					command: "/puffish_skills points add @s talentree 1"
-					elevate_perms: true
+					elevate_perms: "true"
 					icon: "kubejs:skill_add_point"
 					id: "1F53B9CBF0EB0AF1"
-					silent: true
+					silent: "true"
 					title: "{ftbquests.chapter.bosses_and_skill_points.quests57.rewards0.title}"
 					type: "command"
 				}

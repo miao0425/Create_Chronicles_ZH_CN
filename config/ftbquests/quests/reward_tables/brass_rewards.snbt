@@ -1,5 +1,5 @@
 {
-	hide_tooltip: true
+	hide_tooltip: "true"
 	icon: "create:yellow_toolbox"
 	id: "2481D8EE1BD654AB"
 	loot_size: 1

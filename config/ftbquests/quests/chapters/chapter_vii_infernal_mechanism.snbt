@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_quest_shape: ""
 	filename: "chapter_vii_infernal_mechanism"
 	group: "5237AEA7260D740E"
@@ -18,8 +18,8 @@
 			alpha: 200
 			click: ""
 			color: 16672790
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 1.2d
 			hover: [ ]
 			image: "chalk:block/mark/arrow"
@@ -35,8 +35,8 @@
 	quests: [
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0CFFF58986CE7733"
 			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests0.subtitle}"
 			tasks: [
@@ -174,8 +174,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "1A36CF8C1DF5DEC4"
 			tasks: [
 				{
@@ -202,8 +202,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0706D3B957259D7B"
 			tasks: [
 				{
@@ -261,8 +261,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "312D4E8EBE475538"
 			tasks: [
 				{
@@ -293,7 +293,7 @@
 		}
 		{
 			dependencies: ["1084B343FEEBB88E"]
-			hide: true
+			hide: "true"
 			id: "4D391FCA01F6D795"
 			tasks: [
 				{
@@ -320,8 +320,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "7F5486A6318789B5"
 			tasks: [
 				{
@@ -335,8 +335,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "2D42E5A8299941E1"
 			tasks: [
 				{
@@ -355,7 +355,7 @@
 				"738C37B1E696F933"
 			]
 			dependency_requirement: "one_completed"
-			hide_details_until_startable: false
+			hide_details_until_startable: "false"
 			id: "1084B343FEEBB88E"
 			shape: "rsquare"
 			size: 1.5d
@@ -371,8 +371,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "438AFB85E4605DF6"
 			tasks: [
 				{
@@ -386,8 +386,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "029C392AD3BA76AD"
 			tasks: [
 				{
@@ -401,8 +401,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "7E56F2B931A55A36"
 			tasks: [
 				{
@@ -416,8 +416,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "453F0E5926BA4AB1"
 			subtitle: "{ftbquests.chapter.chapter_vii_infernal_mechanism.quests25.subtitle}"
 			tasks: [
@@ -432,8 +432,8 @@
 		}
 		{
 			dependencies: ["7EEB0092E87627F1"]
-			hide: true
-			hide_dependency_lines: true
+			hide: "true"
+			hide_dependency_lines: "true"
 			id: "0CD56ADF87F8799B"
 			tasks: [
 				{
